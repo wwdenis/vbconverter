@@ -1,0 +1,3157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="VBConverter.CodeParser.Trees.Tree">
+    <Position X="0.5" Y="43.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Tree.cs</FileName>
+      <HashCode>AAAAAAgAAAAAEAAAAAAUQIAACAAgAAAAAUAAAgIQBAA=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Class Name="VBConverter.CodeParser.Trees.Tree.Types" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Trees\Tree.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Arguments.Argument">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Arguments\Argument.cs</FileName>
+      <HashCode>AAAgAAAAAAAAAAAAAAgAoAQgAAAAAAAQAAAAAgAAgAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Tree" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="45.5" />
+        <Point X="2.375" Y="45.5" />
+        <Point X="2.375" Y="6.562" />
+        <Point X="2.75" Y="6.562" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Attributes.AttributeTree">
+    <Position X="2.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Attributes\AttributeTree.cs</FileName>
+      <HashCode>AAAAAAAACAAAAABAYAAgIAQAABAAAAAAIQAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Tree" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="45.5" />
+        <Point X="2.375" Y="45.5" />
+        <Point X="2.375" Y="11.25" />
+        <Point X="2.75" Y="11.25" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.CaseClause.CaseClause">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\CaseClauses\CaseClause.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Tree" FixedFromPoint="true">
+      <Path>
+        <Point X="2" Y="45.5" />
+        <Point X="2.375" Y="45.5" />
+        <Point X="2.375" Y="3.824" />
+        <Point X="2.75" Y="3.824" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Collections.TreeCollection&lt;T&gt;">
+    <Position X="2.75" Y="41.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Collections\TreeCollection.cs</FileName>
+      <HashCode>AEIAAEAAAAAAABAQCAAABEQAAAAAAAAECAAAIgBQIAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Tree" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="45.5" />
+        <Point X="2.375" Y="45.5" />
+        <Point X="2.375" Y="43.375" />
+        <Point X="2.75" Y="43.375" />
+      </Path>
+    </InheritanceLine>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.CommentableTree">
+    <Position X="2.75" Y="109.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\CommentableTree.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAIAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Tree" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="45.5" />
+        <Point X="2.375" Y="45.5" />
+        <Point X="2.375" Y="110.75" />
+        <Point X="2.75" Y="110.75" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Comments.Comment">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Comments\Comment.cs</FileName>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAIQAAAAAAAAAACAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Tree" FixedFromPoint="true">
+      <Path>
+        <Point X="2" Y="45.5" />
+        <Point X="2.375" Y="45.5" />
+        <Point X="2.375" Y="1.597" />
+        <Point X="2.75" Y="1.597" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.Expression">
+    <Position X="2.75" Y="62.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\Expression.cs</FileName>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAIAACAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Tree" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="45.5" />
+        <Point X="2.375" Y="45.5" />
+        <Point X="2.375" Y="63.187" />
+        <Point X="2.75" Y="63.187" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.FileTree">
+    <Position X="2.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\FileTree.cs</FileName>
+      <HashCode>CAAAIgAAQAAAAAAAAAAAAAUAAAAAAAAAAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Tree" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="45.5" />
+        <Point X="2.375" Y="45.5" />
+        <Point X="2.375" Y="18.437" />
+        <Point X="2.75" Y="18.437" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Imports.Import">
+    <Position X="2.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Imports\Import.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Tree" FixedFromPoint="true">
+      <Path>
+        <Point X="2" Y="45.5" />
+        <Point X="2.375" Y="45.5" />
+        <Point X="2.375" Y="8.801" />
+        <Point X="2.75" Y="8.801" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Initializers.Initializer">
+    <Position X="2.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Initializers\Initializer.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Tree" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="45.5" />
+        <Point X="2.375" Y="45.5" />
+        <Point X="2.375" Y="13.812" />
+        <Point X="2.75" Y="13.812" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Modifiers.Modifier">
+    <Position X="2.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Modifiers\Modifier.cs</FileName>
+      <HashCode>AACAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Tree" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="45.5" />
+        <Point X="2.375" Y="45.5" />
+        <Point X="2.375" Y="15.625" />
+        <Point X="2.75" Y="15.625" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Names.Name">
+    <Position X="2.75" Y="31" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Names\Name.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Tree" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="45.5" />
+        <Point X="2.375" Y="45.5" />
+        <Point X="2.375" Y="31.812" />
+        <Point X="2.75" Y="31.812" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Parameters.Parameter">
+    <Position X="2.75" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Parameters\Parameter.cs</FileName>
+      <HashCode>CAAAFCAAABBAAAAACAEAAAAxAAAAAAACAAAAAgAAFAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Tree" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="45.5" />
+        <Point X="2.375" Y="45.5" />
+        <Point X="2.375" Y="25.75" />
+        <Point X="2.75" Y="25.75" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.TypeNames.TypeName">
+    <Position X="2.75" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\TypeNames\TypeName.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Tree" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="45.5" />
+        <Point X="2.375" Y="45.5" />
+        <Point X="2.375" Y="22.875" />
+        <Point X="2.75" Y="22.875" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.TypeParameters.TypeParameter">
+    <Position X="2.75" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\TypeParameters\TypeParameter.cs</FileName>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAggAAAAABABAACAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Tree" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="45.5" />
+        <Point X="2.375" Y="45.5" />
+        <Point X="2.375" Y="29.312" />
+        <Point X="2.75" Y="29.312" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.VariableDeclarators.VariableDeclarator">
+    <Position X="2.75" Y="32.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\VariableDeclarators\VariableDeclarator.cs</FileName>
+      <HashCode>CAAEECAAAAACCAAASQAAAAAgAABAEAAAIAAAAgAABAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Tree" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="45.5" />
+        <Point X="2.375" Y="45.5" />
+        <Point X="2.375" Y="34.875" />
+        <Point X="2.75" Y="34.875" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.CaseClause.ComparisonCaseClause">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\CaseClauses\ComparisonCaseClause.cs</FileName>
+      <HashCode>CAIAAAAAgAAAAAAAAAAAAAAAAEAAACAAACAEAgEAAAg=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.CaseClause.CaseClause" FixedFromPoint="true">
+      <Path>
+        <Point X="4.25" Y="3.75" />
+        <Point X="4.625" Y="3.75" />
+        <Point X="4.625" Y="2.09" />
+        <Point X="5" Y="2.09" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.CaseClause.RangeCaseClause">
+    <Position X="5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\CaseClauses\RangeCaseClause.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAABAAAAAAAAIAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.CaseClause.CaseClause" FixedFromPoint="true">
+      <Path>
+        <Point X="4.25" Y="3.75" />
+        <Point X="4.625" Y="3.75" />
+        <Point X="4.625" Y="5.097" />
+        <Point X="5" Y="5.097" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Imports.AliasImport">
+    <Position X="5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Imports\AliasImport.cs</FileName>
+      <HashCode>AAAAECAQAAAAAAAAAAAAIARAAAAAAAAAAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Imports.Import" FixedFromPoint="true">
+      <Path>
+        <Point X="4.25" Y="8.688" />
+        <Point X="4.625" Y="8.688" />
+        <Point X="4.625" Y="10.093" />
+        <Point X="5" Y="10.093" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Imports.NameImport">
+    <Position X="5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Imports\NameImport.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABABAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Imports.Import" FixedFromPoint="true">
+      <Path>
+        <Point X="4.25" Y="8.688" />
+        <Point X="4.625" Y="8.688" />
+        <Point X="4.625" Y="7.515" />
+        <Point X="5" Y="7.515" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Initializers.AggregateInitializer">
+    <Position X="5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Initializers\AggregateInitializer.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Initializers.Initializer" FixedFromPoint="true">
+      <Path>
+        <Point X="4.25" Y="13.875" />
+        <Point X="4.625" Y="13.875" />
+        <Point X="4.625" Y="12.765" />
+        <Point X="5" Y="12.765" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Initializers.ExpressionInitializer">
+    <Position X="5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Initializers\ExpressionInitializer.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAQAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Initializers.Initializer" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="13.875" />
+        <Point X="4.625" Y="13.875" />
+        <Point X="4.625" Y="15.062" />
+        <Point X="5" Y="15.062" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.TypeNames.ArrayTypeName">
+    <Position X="5" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\TypeNames\ArrayTypeName.cs</FileName>
+      <HashCode>AAABAAAAIAAAAQAAQAAAAAEAAAAAAAAAIAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.TypeNames.TypeName" FixedFromPoint="true">
+      <Path>
+        <Point X="4.25" Y="22.875" />
+        <Point X="5" Y="22.875" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.TypeNames.IntrinsicTypeName">
+    <Position X="5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\TypeNames\IntrinsicTypeName.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAACEAAAAAAAAAAAAAAgAAAAAAAAEAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.TypeNames.TypeName" FixedFromPoint="true">
+      <Path>
+        <Point X="4.25" Y="22.875" />
+        <Point X="4.625" Y="22.875" />
+        <Point X="4.625" Y="17.597" />
+        <Point X="5" Y="17.597" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.TypeNames.NamedTypeName">
+    <Position X="5" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\TypeNames\NamedTypeName.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIIQAAAAAAAAAAAAAAgAEAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.TypeNames.TypeName" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="22.875" />
+        <Point X="4.625" Y="22.875" />
+        <Point X="4.625" Y="25.272" />
+        <Point X="5" Y="25.272" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Names.QualifiedName">
+    <Position X="5" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Names\QualifiedName.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAIAQCAAIIAQAAAAAAAAAAAAAAgAAAEA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Names.Name" FixedFromPoint="true">
+      <Path>
+        <Point X="4.25" Y="31.812" />
+        <Point X="4.625" Y="31.812" />
+        <Point X="4.625" Y="27.926" />
+        <Point X="5" Y="27.926" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Names.SimpleName">
+    <Position X="5" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Names\SimpleName.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAIAAggAAII4AAAAAAAAAQAAgAAAAAiA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Names.Name" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="31.812" />
+        <Point X="4.625" Y="31.812" />
+        <Point X="4.625" Y="31.25" />
+        <Point X="5" Y="31.25" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Names.SpecialName">
+    <Position X="5" Y="33.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Names\SpecialName.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Names.Name" FixedFromPoint="true">
+      <Path>
+        <Point X="4.25" Y="31.812" />
+        <Point X="4.625" Y="31.812" />
+        <Point X="4.625" Y="33.992" />
+        <Point X="5" Y="33.992" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Names.VariableName">
+    <Position X="5" Y="35" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Names\VariableName.cs</FileName>
+      <HashCode>AAAEAAAAAAAAAIAAAAAAIAQAAAAAAAAAIAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Names.Name" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="31.812" />
+        <Point X="4.625" Y="31.812" />
+        <Point X="4.625" Y="36.25" />
+        <Point X="5" Y="36.25" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Attributes.AttributeBlockCollection">
+    <Position X="5" Y="41.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Attributes\AttributeBlockCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Collections.TreeCollection&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="4.25" Y="43.125" />
+        <Point X="4.625" Y="43.125" />
+        <Point X="4.625" Y="41.801" />
+        <Point X="5" Y="41.801" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Collections.ColonDelimitedTreeCollection&lt;T&gt;">
+    <Position X="5" Y="44.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Collections\ColonDelimitedTreeCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Collections.TreeCollection&lt;T&gt;" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="43.125" />
+        <Point X="4.625" Y="43.125" />
+        <Point X="4.625" Y="45.688" />
+        <Point X="5" Y="45.688" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Collections.CommaDelimitedTreeCollection&lt;T&gt;">
+    <Position X="5" Y="37.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Collections\CommaDelimitedTreeCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Collections.TreeCollection&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="4.25" Y="43.125" />
+        <Point X="4.625" Y="43.125" />
+        <Point X="4.625" Y="38.683" />
+        <Point X="5" Y="38.683" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Modifiers.ModifierCollection">
+    <Position X="5" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Modifiers\ModifierCollection.cs</FileName>
+      <HashCode>AAAAAAgQAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Collections.TreeCollection&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="4.25" Y="43.125" />
+        <Point X="4.625" Y="43.125" />
+        <Point X="4.625" Y="43.827" />
+        <Point X="5" Y="43.827" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.DeclarationCollection">
+    <Position X="7.25" Y="44.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\DeclarationCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Collections.ColonDelimitedTreeCollection&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="45.875" />
+        <Point X="6.875" Y="45.875" />
+        <Point X="6.875" Y="45.569" />
+        <Point X="7.25" Y="45.569" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.StatementCollection">
+    <Position X="7.25" Y="46" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\StatementCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Collections.ColonDelimitedTreeCollection&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="45.875" />
+        <Point X="6.875" Y="45.875" />
+        <Point X="6.875" Y="46.551" />
+        <Point X="7.25" Y="46.551" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Arguments.ArgumentCollection">
+    <Position X="7.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Arguments\ArgumentCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Collections.CommaDelimitedTreeCollection&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="38.75" />
+        <Point X="6.875" Y="38.75" />
+        <Point X="6.875" Y="16.933" />
+        <Point X="7.25" Y="16.933" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Attributes.AttributeCollection">
+    <Position X="7.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Attributes\AttributeCollection.cs</FileName>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Collections.CommaDelimitedTreeCollection&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="38.75" />
+        <Point X="6.875" Y="38.75" />
+        <Point X="6.875" Y="18.933" />
+        <Point X="7.25" Y="18.933" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.CaseClause.CaseClauseCollection">
+    <Position X="7.25" Y="42.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\CaseClauses\CaseClauseCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Collections.CommaDelimitedTreeCollection&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="38.75" />
+        <Point X="6.875" Y="38.75" />
+        <Point X="6.875" Y="43.069" />
+        <Point X="7.25" Y="43.069" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.ExpressionCollection">
+    <Position X="7.25" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\ExpressionCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Collections.CommaDelimitedTreeCollection&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="38.75" />
+        <Point X="6.875" Y="38.75" />
+        <Point X="6.875" Y="22.801" />
+        <Point X="7.25" Y="22.801" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Imports.ImportCollection">
+    <Position X="7.25" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Imports\ImportCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Collections.CommaDelimitedTreeCollection&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="38.75" />
+        <Point X="6.875" Y="38.75" />
+        <Point X="6.875" Y="24.051" />
+        <Point X="7.25" Y="24.051" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Initializers.InitializerCollection">
+    <Position X="7.25" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Initializers\InitializerCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAIAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Collections.CommaDelimitedTreeCollection&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="38.75" />
+        <Point X="6.875" Y="38.75" />
+        <Point X="6.875" Y="25.683" />
+        <Point X="7.25" Y="25.683" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Names.NameCollection">
+    <Position X="7.25" Y="43.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Names\NameCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Collections.CommaDelimitedTreeCollection&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="38.75" />
+        <Point X="6.875" Y="38.75" />
+        <Point X="6.875" Y="44.051" />
+        <Point X="7.25" Y="44.051" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Names.VariableNameCollection">
+    <Position X="7.25" Y="41" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Names\VariableNameCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Collections.CommaDelimitedTreeCollection&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="38.75" />
+        <Point X="6.875" Y="38.75" />
+        <Point X="6.875" Y="41.551" />
+        <Point X="7.25" Y="41.551" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Parameters.ParameterCollection">
+    <Position X="7.25" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Parameters\ParameterCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Collections.CommaDelimitedTreeCollection&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="38.75" />
+        <Point X="6.875" Y="38.75" />
+        <Point X="6.875" Y="27.683" />
+        <Point X="7.25" Y="27.683" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.TypeNames.TypeArgumentCollection">
+    <Position X="7.25" Y="29" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\TypeNames\TypeArgumentCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAIAABAAAAAAAAEAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Collections.CommaDelimitedTreeCollection&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="38.75" />
+        <Point X="6.875" Y="38.75" />
+        <Point X="6.875" Y="30.097" />
+        <Point X="7.25" Y="30.097" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.TypeNames.TypeNameCollection">
+    <Position X="7.25" Y="31.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\TypeNames\TypeNameCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Collections.CommaDelimitedTreeCollection&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="38.75" />
+        <Point X="6.875" Y="38.75" />
+        <Point X="6.875" Y="32.051" />
+        <Point X="7.25" Y="32.051" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.TypeParameters.TypeConstraintCollection">
+    <Position X="7.25" Y="33" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\TypeParameters\TypeConstraintCollection.cs</FileName>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Collections.CommaDelimitedTreeCollection&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="38.75" />
+        <Point X="6.875" Y="38.75" />
+        <Point X="6.875" Y="33.933" />
+        <Point X="7.25" Y="33.933" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.TypeParameters.TypeParameterCollection">
+    <Position X="7.25" Y="35.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\TypeParameters\TypeParameterCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAIAABAAAAAAAAEAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Collections.CommaDelimitedTreeCollection&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="38.75" />
+        <Point X="6.875" Y="38.75" />
+        <Point X="6.875" Y="36.347" />
+        <Point X="7.25" Y="36.347" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.VariableDeclarators.VariableDeclaratorCollection">
+    <Position X="7.25" Y="37.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\VariableDeclarators\VariableDeclaratorCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Collections.CommaDelimitedTreeCollection&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="38.75" />
+        <Point X="6.875" Y="38.75" />
+        <Point X="6.875" Y="38.25" />
+        <Point X="7.25" Y="38.25" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.Declaration">
+    <Position X="5" Y="94.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\Declaration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAACAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.CommentableTree" FixedFromPoint="true">
+      <Path>
+        <Point X="4.25" Y="110.625" />
+        <Point X="4.625" Y="110.625" />
+        <Point X="4.625" Y="95.074" />
+        <Point X="5" Y="95.074" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.Statement">
+    <Position X="5" Y="142.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\Statement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.CommentableTree" FixedFromPoint="true">
+      <Path>
+        <Point X="4.25" Y="110.625" />
+        <Point X="4.625" Y="110.625" />
+        <Point X="4.625" Y="143.301" />
+        <Point X="5" Y="143.301" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.BinaryOperatorExpression">
+    <Position X="5" Y="47" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\BinaryOperatorExpression.cs</FileName>
+      <HashCode>JAAAAAEAAAAAAAAAAABAAAAAAEAAIAgAACAAAgAAIAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.Expression" FixedFromPoint="true">
+      <Path>
+        <Point X="4.25" Y="63.25" />
+        <Point X="4.625" Y="63.25" />
+        <Point X="4.625" Y="48.59" />
+        <Point X="5" Y="48.59" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.CallOrIndexExpression">
+    <Position X="5" Y="50.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\CallOrIndexExpression.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAIQAAAAAAAAAAAABAAIAAAAgAAABI=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.Expression" FixedFromPoint="true">
+      <Path>
+        <Point X="4.25" Y="63.25" />
+        <Point X="4.625" Y="63.25" />
+        <Point X="4.625" Y="51.593" />
+        <Point X="5" Y="51.593" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.DictionaryLookupExpression">
+    <Position X="5" Y="53" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\DictionaryLookupExpression.cs</FileName>
+      <HashCode>AAEAAAAAAAAAAAAQCAAAIAQAAAAAIAAAAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.Expression" FixedFromPoint="true">
+      <Path>
+        <Point X="4.25" Y="63.25" />
+        <Point X="4.625" Y="63.25" />
+        <Point X="4.625" Y="54.343" />
+        <Point X="5" Y="54.343" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.GenericQualifiedExpression">
+    <Position X="5" Y="55.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\GenericQualifiedExpression.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAACAABgAAQAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.Expression" FixedFromPoint="true">
+      <Path>
+        <Point X="4.25" Y="63.25" />
+        <Point X="4.625" Y="63.25" />
+        <Point X="4.625" Y="56.929" />
+        <Point X="5" Y="56.929" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.GetTypeExpression">
+    <Position X="5" Y="60.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\GetTypeExpression.cs</FileName>
+      <HashCode>AAAAAAAAQAAAAAAAAACAACAAAgAAAAABAAAAggAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.Expression" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="63.25" />
+        <Point X="4.625" Y="63.25" />
+        <Point X="4.625" Y="62.062" />
+        <Point X="5" Y="62.062" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.GlobalExpression">
+    <Position X="5" Y="58.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\GlobalExpression.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.Expression" FixedFromPoint="true">
+      <Path>
+        <Point X="4.25" Y="63.25" />
+        <Point X="4.625" Y="63.25" />
+        <Point X="4.625" Y="58.801" />
+        <Point X="5" Y="58.801" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.InstanceExpression">
+    <Position X="5" Y="66" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\InstanceExpression.cs</FileName>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.Expression" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="63.25" />
+        <Point X="4.625" Y="63.25" />
+        <Point X="4.625" Y="66.875" />
+        <Point X="5" Y="66.875" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.LiteralExpression&lt;LiteralType&gt;">
+    <Position X="5" Y="63.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\LiteralExpression.cs</FileName>
+      <HashCode>AAQAAAEAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.Expression" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="63.25" />
+        <Point X="4.625" Y="63.25" />
+        <Point X="4.625" Y="64.75" />
+        <Point X="5" Y="64.75" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.NewAggregateExpression">
+    <Position X="5" Y="68" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\NewAggregateExpression.cs</FileName>
+      <HashCode>AAAAAAAAQAAAAAAACAAAACAAAAAAAAAAAAAAAgAABAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.Expression" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="63.25" />
+        <Point X="4.625" Y="63.25" />
+        <Point X="4.625" Y="69.188" />
+        <Point X="5" Y="69.188" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.NewExpression">
+    <Position X="5" Y="70.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\NewExpression.cs</FileName>
+      <HashCode>AAAAAAAAQAAAAAAAQAAAACAAAAAAAAAAIAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.Expression" FixedFromPoint="true">
+      <Path>
+        <Point X="4.25" Y="63.25" />
+        <Point X="4.625" Y="63.25" />
+        <Point X="4.625" Y="71.679" />
+        <Point X="5" Y="71.679" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.NothingExpression">
+    <Position X="5" Y="73" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\NothingExpression.cs</FileName>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.Expression" FixedFromPoint="true">
+      <Path>
+        <Point X="4.25" Y="63.25" />
+        <Point X="4.625" Y="63.25" />
+        <Point X="4.625" Y="73.742" />
+        <Point X="5" Y="73.742" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.QualifiedExpression">
+    <Position X="5" Y="80" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\QualifiedExpression.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAQCAAIIAQAAAAAAAAAAAAAAgAAAEA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.Expression" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="63.25" />
+        <Point X="4.625" Y="63.25" />
+        <Point X="4.625" Y="81.375" />
+        <Point X="5" Y="81.375" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.SimpleNameExpression">
+    <Position X="5" Y="83" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\SimpleNameExpression.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAIAQAAAAAAAAAAAAAAgAAAiA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.Expression" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="63.25" />
+        <Point X="4.625" Y="63.25" />
+        <Point X="4.625" Y="84.125" />
+        <Point X="5" Y="84.125" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.TypeReferenceExpression">
+    <Position X="5" Y="85.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\TypeReferenceExpression.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABABAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.Expression" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="63.25" />
+        <Point X="4.625" Y="63.25" />
+        <Point X="4.625" Y="86.75" />
+        <Point X="5" Y="86.75" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.UnaryExpression">
+    <Position X="5" Y="74.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\UnaryExpression.cs</FileName>
+      <HashCode>CAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgEAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.Expression" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="63.25" />
+        <Point X="4.625" Y="63.25" />
+        <Point X="4.625" Y="75.875" />
+        <Point X="5" Y="75.875" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.BooleanLiteralExpression">
+    <Position X="7.25" Y="61.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\BooleanLiteralExpression.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.LiteralExpression&lt;LiteralType&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="64.812" />
+        <Point X="6.875" Y="64.812" />
+        <Point X="6.875" Y="62.051" />
+        <Point X="7.25" Y="62.051" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.CharacterLiteralExpression">
+    <Position X="7.25" Y="62.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\CharacterLiteralExpression.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.LiteralExpression&lt;LiteralType&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="64.812" />
+        <Point X="6.875" Y="64.812" />
+        <Point X="6.875" Y="63.301" />
+        <Point X="7.25" Y="63.301" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.DateLiteralExpression">
+    <Position X="7.25" Y="66.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\DateLiteralExpression.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.LiteralExpression&lt;LiteralType&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="64.812" />
+        <Point X="6.875" Y="64.812" />
+        <Point X="6.875" Y="66.801" />
+        <Point X="7.25" Y="66.801" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.NumericLiteralExpression&lt;NumericType&gt;">
+    <Position X="7.25" Y="64" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\NumericLiteralExpression.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAIAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.LiteralExpression&lt;LiteralType&gt;" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="64.812" />
+        <Point X="6.875" Y="64.812" />
+        <Point X="6.875" Y="65.188" />
+        <Point X="7.25" Y="65.188" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.StringLiteralExpression">
+    <Position X="7.25" Y="67.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\StringLiteralExpression.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.LiteralExpression&lt;LiteralType&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="64.812" />
+        <Point X="6.875" Y="64.812" />
+        <Point X="6.875" Y="68.051" />
+        <Point X="7.25" Y="68.051" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.DecimalLiteralExpression">
+    <Position X="9.5" Y="62.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\DecimalLiteralExpression.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.NumericLiteralExpression&lt;NumericType&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="65" />
+        <Point X="9.125" Y="65" />
+        <Point X="9.125" Y="63.544" />
+        <Point X="9.5" Y="63.544" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.FloatingPointLiteralExpression">
+    <Position X="9.5" Y="64" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\FloatingPointLiteralExpression.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.NumericLiteralExpression&lt;NumericType&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="65" />
+        <Point X="9.125" Y="65" />
+        <Point X="9.125" Y="64.372" />
+        <Point X="9.5" Y="64.372" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.IntegerLiteralExpression">
+    <Position X="9.5" Y="65.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\IntegerLiteralExpression.cs</FileName>
+      <HashCode>AAAAAAAAAAACAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.NumericLiteralExpression&lt;NumericType&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="65" />
+        <Point X="9.125" Y="65" />
+        <Point X="9.125" Y="66.183" />
+        <Point X="9.5" Y="66.183" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.AddressOfExpression">
+    <Position X="7.25" Y="72" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\AddressOfExpression.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.UnaryExpression" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="75.875" />
+        <Point X="6.875" Y="75.875" />
+        <Point X="6.875" Y="72.551" />
+        <Point X="7.25" Y="72.551" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.CastTypeExpression">
+    <Position X="7.25" Y="68.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\CastTypeExpression.cs</FileName>
+      <HashCode>AAAAAAAAQAAAAAAAAACAACAAAgAAAAABAAAgggAAACA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.UnaryExpression" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="75.875" />
+        <Point X="6.875" Y="75.875" />
+        <Point X="6.875" Y="70.258" />
+        <Point X="7.25" Y="70.258" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.IntrinsicCastExpression">
+    <Position X="7.25" Y="73.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\IntrinsicCastExpression.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAACAAACAAAAAAgAAAAABAAAAgAAEAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.UnaryExpression" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="75.875" />
+        <Point X="6.875" Y="75.875" />
+        <Point X="6.875" Y="74.372" />
+        <Point X="7.25" Y="74.372" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.ParentheticalExpression">
+    <Position X="7.25" Y="76" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\ParentheticalExpression.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.UnaryExpression" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="75.875" />
+        <Point X="6.875" Y="75.875" />
+        <Point X="6.875" Y="76.861" />
+        <Point X="7.25" Y="76.861" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.TypeOfExpression">
+    <Position X="7.25" Y="80.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\TypeOfExpression.cs</FileName>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAACAAAAAAACAAAAAAAgAAAAg=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.UnaryExpression" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="75.875" />
+        <Point X="6.875" Y="75.875" />
+        <Point X="6.875" Y="81.938" />
+        <Point X="7.25" Y="81.938" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.UnaryOperatorExpression">
+    <Position X="7.25" Y="83.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\UnaryOperatorExpression.cs</FileName>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.UnaryExpression" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="75.875" />
+        <Point X="6.875" Y="75.875" />
+        <Point X="6.875" Y="84.606" />
+        <Point X="7.25" Y="84.606" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.CTypeExpression">
+    <Position X="9.5" Y="68.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\CTypeExpression.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.CastTypeExpression" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="70.25" />
+        <Point X="9.125" Y="70.25" />
+        <Point X="9.125" Y="68.801" />
+        <Point X="9.5" Y="68.801" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.DirectCastExpression">
+    <Position X="9.5" Y="69.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\DirectCastExpression.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.CastTypeExpression" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.75" Y="70.25" />
+        <Point X="9.125" Y="70.25" />
+        <Point X="9.125" Y="70.062" />
+        <Point X="9.5" Y="70.062" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Expressions.TryCastExpression">
+    <Position X="9.5" Y="70.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Expressions\TryCastExpression.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Expressions.CastTypeExpression" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="70.25" />
+        <Point X="9.125" Y="70.25" />
+        <Point X="9.125" Y="71.301" />
+        <Point X="9.5" Y="71.301" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.AttributeDeclaration">
+    <Position X="7.25" Y="102" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\AttributeDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAACAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.Declaration" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="95" />
+        <Point X="6.875" Y="95" />
+        <Point X="6.875" Y="103.034" />
+        <Point X="7.25" Y="103.034" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.BadDeclaration">
+    <Position X="7.25" Y="88" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\BadDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.Declaration" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="95" />
+        <Point X="6.875" Y="95" />
+        <Point X="6.875" Y="88.357" />
+        <Point X="7.25" Y="88.357" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.EmptyDeclaration">
+    <Position X="7.25" Y="89.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\EmptyDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.Declaration" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="95" />
+        <Point X="6.875" Y="95" />
+        <Point X="6.875" Y="89.801" />
+        <Point X="7.25" Y="89.801" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.EndBlockDeclaration">
+    <Position X="7.25" Y="95" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\EndBlockDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAACAAAAAAAAAAAAICAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.Declaration" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="95" />
+        <Point X="6.875" Y="95" />
+        <Point X="6.875" Y="96" />
+        <Point X="7.25" Y="96" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.ImplementsDeclaration">
+    <Position X="7.25" Y="90.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\ImplementsDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQIAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.Declaration" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="95" />
+        <Point X="6.875" Y="95" />
+        <Point X="6.875" Y="91.862" />
+        <Point X="7.25" Y="91.862" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.ImportsDeclaration">
+    <Position X="7.25" Y="92.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\ImportsDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAgAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.Declaration" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="95" />
+        <Point X="6.875" Y="95" />
+        <Point X="6.875" Y="93.765" />
+        <Point X="7.25" Y="93.765" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.InheritsDeclaration">
+    <Position X="7.25" Y="99.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\InheritsDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAACAAAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.Declaration" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="95" />
+        <Point X="6.875" Y="95" />
+        <Point X="6.875" Y="100.75" />
+        <Point X="7.25" Y="100.75" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.ModifiedDeclaration">
+    <Position X="7.25" Y="85.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\ModifiedDeclaration.cs</FileName>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAARAAAAAAACAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.Declaration" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="95" />
+        <Point X="6.875" Y="95" />
+        <Point X="6.875" Y="86.679" />
+        <Point X="7.25" Y="86.679" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.OptionDeclaration">
+    <Position X="7.25" Y="104.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\OptionDeclaration.cs</FileName>
+      <HashCode>AAAIIAAAAAAAAAAAGAAAgAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.Declaration" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="95" />
+        <Point X="6.875" Y="95" />
+        <Point X="6.875" Y="105.625" />
+        <Point X="7.25" Y="105.625" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.BlockDeclaration">
+    <Position X="9.5" Y="72.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\BlockDeclaration.cs</FileName>
+      <HashCode>AAMAABEAQgAAAAAAAAAAIAQAAAAAAAAAAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.ModifiedDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="86.688" />
+        <Point X="9.125" Y="86.688" />
+        <Point X="9.125" Y="73.758" />
+        <Point X="9.5" Y="73.758" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.Members.AddHandlerAccessorDeclaration">
+    <Position X="9.5" Y="75.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\Members\AddHandlerAccessorDeclaration.cs</FileName>
+      <HashCode>AAAAQAAAAAAAAAEAQAABAAAAAAQABAAAAIAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.ModifiedDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="86.688" />
+        <Point X="9.125" Y="86.688" />
+        <Point X="9.125" Y="77.008" />
+        <Point X="9.5" Y="77.008" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.Members.EnumValueDeclaration">
+    <Position X="9.5" Y="81.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\Members\EnumValueDeclaration.cs</FileName>
+      <HashCode>AAAAECAAAAAAAAAAAAAAoAQAAAAAAAAQAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.ModifiedDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="86.688" />
+        <Point X="9.125" Y="86.688" />
+        <Point X="9.125" Y="82.188" />
+        <Point X="9.5" Y="82.188" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.Members.GetAccessorDeclaration">
+    <Position X="9.5" Y="84.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\Members\GetAccessorDeclaration.cs</FileName>
+      <HashCode>AAAAABACAgAAAAAQQAAAAAAAAAAABAAAAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.ModifiedDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="86.688" />
+        <Point X="9.125" Y="86.688" />
+        <Point X="9.125" Y="85.594" />
+        <Point X="9.5" Y="85.594" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.Members.RaiseEventAccessorDeclaration">
+    <Position X="9.5" Y="91.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\Members\RaiseEventAccessorDeclaration.cs</FileName>
+      <HashCode>AAAAQAAAAAAAAAAAQAABAAAAAAQABAAAAIBAAgACAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.ModifiedDeclaration" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.75" Y="86.688" />
+        <Point X="9.125" Y="86.688" />
+        <Point X="9.125" Y="92.972" />
+        <Point X="9.5" Y="92.972" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.Members.RemoveHandlerAccessorDeclaration">
+    <Position X="9.5" Y="94.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\Members\RemoveHandlerAccessorDeclaration.cs</FileName>
+      <HashCode>AAEAQAACAAAAAAAAQAABAAAAAAQABAAAAIAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.ModifiedDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="86.688" />
+        <Point X="9.125" Y="86.688" />
+        <Point X="9.125" Y="95.758" />
+        <Point X="9.5" Y="95.758" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.Members.SetAccessorDeclaration">
+    <Position X="9.5" Y="99.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\Members\SetAccessorDeclaration.cs</FileName>
+      <HashCode>AAAAQBAAAgAAAAAAQAAAAAAAAAAABAAgAIAAAgAAAAE=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.ModifiedDeclaration" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.75" Y="86.688" />
+        <Point X="9.125" Y="86.688" />
+        <Point X="9.125" Y="101.188" />
+        <Point X="9.5" Y="101.188" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.Members.SignatureDeclaration">
+    <Position X="9.5" Y="87.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\Members\SignatureDeclaration.cs</FileName>
+      <HashCode>CAMAQAAAACAAAAAAAQEAIAQgABAAABAAAIAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.ModifiedDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="86.688" />
+        <Point X="9.125" Y="86.688" />
+        <Point X="9.125" Y="89.501" />
+        <Point X="9.5" Y="89.501" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.Members.VariableListDeclaration">
+    <Position X="9.5" Y="103" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\Members\VariableListDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAkAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.ModifiedDeclaration" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.75" Y="86.688" />
+        <Point X="9.125" Y="86.688" />
+        <Point X="9.125" Y="104" />
+        <Point X="9.5" Y="104" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.NamespaceDeclaration">
+    <Position X="9.5" Y="105.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\NamespaceDeclaration.cs</FileName>
+      <HashCode>AAAAABEAQgAAQAAAAAAAIAQAAAAAAAAAAAIAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.ModifiedDeclaration" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.75" Y="86.688" />
+        <Point X="9.125" Y="86.688" />
+        <Point X="9.125" Y="106.75" />
+        <Point X="9.5" Y="106.75" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.AssignmentStatement">
+    <Position X="7.25" Y="107" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\AssignmentStatement.cs</FileName>
+      <HashCode>AAAAQAAAgAAAABAIAgAAAAAAgEAAAAAAACAEAgAAABA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="108.672" />
+        <Point X="7.25" Y="108.672" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.BlockStatement">
+    <Position X="7.25" Y="139" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\BlockStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAABAAAAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="140.015" />
+        <Point X="7.25" Y="140.015" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.CallStatement">
+    <Position X="7.25" Y="110.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\CallStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAIQAAAAAAAAEAAAAAgIAAAAgAAABA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="112.093" />
+        <Point X="7.25" Y="112.093" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.CaseElseStatement">
+    <Position X="7.25" Y="113.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\CaseElseStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="114.433" />
+        <Point X="7.25" Y="114.433" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.CaseStatement">
+    <Position X="7.25" Y="115.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\CaseStatement.cs</FileName>
+      <HashCode>gAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="116.515" />
+        <Point X="7.25" Y="116.515" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.CatchStatement">
+    <Position X="7.25" Y="122.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\CatchStatement.cs</FileName>
+      <HashCode>CAAAAgIBAAAAAAAAAAAAMAQgAAAAAAAAAEAAEgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="123.922" />
+        <Point X="7.25" Y="123.922" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.CompoundAssignmentStatement">
+    <Position X="7.25" Y="125.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\CompoundAssignmentStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAABAIAgAAAAAAAEAAAAAAACgAAgACABA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="127.258" />
+        <Point X="7.25" Y="127.258" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.ContinueStatement">
+    <Position X="7.25" Y="129" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\ContinueStatement.cs</FileName>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAAAQAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="130.125" />
+        <Point X="7.25" Y="130.125" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.ElseIfStatement">
+    <Position X="7.25" Y="131.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\ElseIfStatement.cs</FileName>
+      <HashCode>AQAAAAAgAAAAAAAAAAAAgAAAAAAAAAAQAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="132.429" />
+        <Point X="7.25" Y="132.429" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.ElseStatement">
+    <Position X="7.25" Y="133.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\ElseStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="134.301" />
+        <Point X="7.25" Y="134.301" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.EmptyStatement">
+    <Position X="7.25" Y="135" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\EmptyStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="135.551" />
+        <Point X="7.25" Y="135.551" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.EndBlockStatement">
+    <Position X="7.25" Y="136.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\EndBlockStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAACAAAAAAAAAAAAICAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="137.347" />
+        <Point X="7.25" Y="137.347" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.EndStatement">
+    <Position X="7.25" Y="151.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\EndStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="151.801" />
+        <Point X="7.25" Y="151.801" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.EraseStatement">
+    <Position X="7.25" Y="141.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\EraseStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAQAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="142.25" />
+        <Point X="7.25" Y="142.25" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.ExitStatement">
+    <Position X="7.25" Y="148.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\ExitStatement.cs</FileName>
+      <HashCode>AAAAAAAAAUABAAAAAAAAAAAAAAAAQAAAAAAAAAAAQAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="149.937" />
+        <Point X="7.25" Y="149.937" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.ExpressionStatement">
+    <Position X="7.25" Y="176.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\ExpressionStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAQAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="177.312" />
+        <Point X="7.25" Y="177.312" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.FinallyStatement">
+    <Position X="7.25" Y="152.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\FinallyStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="153.062" />
+        <Point X="7.25" Y="153.062" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.HandlerStatement">
+    <Position X="7.25" Y="159.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\HandlerStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAIAQAAAAAAAIAAAAgAgAAACA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="160.875" />
+        <Point X="7.25" Y="160.875" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.LabelReferenceStatement">
+    <Position X="7.25" Y="165.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\LabelReferenceStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAQAAgAAAAAAAAAAAoAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="166.772" />
+        <Point X="7.25" Y="166.772" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.LineIfStatement">
+    <Position X="7.25" Y="162.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\LineIfStatement.cs</FileName>
+      <HashCode>AQAAAAAgAAQAAAAAAAAAhAAAIAIAAAASAAAAAgAEAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="164.063" />
+        <Point X="7.25" Y="164.063" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.LocalDeclarationStatement">
+    <Position X="7.25" Y="143.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\LocalDeclarationStatement.cs</FileName>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAABAAAAAAAAAAgAAkAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="144.688" />
+        <Point X="7.25" Y="144.688" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.LoopStatement">
+    <Position X="7.25" Y="146" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\LoopStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAkAAAAAAAAEAQAAAABgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="147.438" />
+        <Point X="7.25" Y="147.438" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.MidAssignmentStatement">
+    <Position X="7.25" Y="168" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\MidAssignmentStatement.cs</FileName>
+      <HashCode>EAAAEAAAAAArABQYAgCAEACAAkAAAAABACAAggAAABA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="170.562" />
+        <Point X="7.25" Y="170.562" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.NextStatement">
+    <Position X="7.25" Y="153.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\NextStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAQAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="154.875" />
+        <Point X="7.25" Y="154.875" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.RaiseEventStatement">
+    <Position X="7.25" Y="156" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\RaiseEventStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAIAQAAAAAAAAAIAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="157.188" />
+        <Point X="7.25" Y="157.188" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.ReDimStatement">
+    <Position X="7.25" Y="173.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\ReDimStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAIAAAAAAABAAAgAwAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="174.562" />
+        <Point X="7.25" Y="174.562" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.StopStatement">
+    <Position X="7.25" Y="121" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\StopStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.Statement" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="143.312" />
+        <Point X="6.875" Y="143.312" />
+        <Point X="6.875" Y="121.551" />
+        <Point X="7.25" Y="121.551" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.EnumDeclaration">
+    <Position X="11.75" Y="74.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\EnumDeclaration.cs</FileName>
+      <HashCode>CAAABAAAAAAAAAAAAAAAAAAgIAAAAAAAAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.BlockDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="11" Y="73.938" />
+        <Point X="11.375" Y="73.938" />
+        <Point X="11.375" Y="75.929" />
+        <Point X="11.75" Y="75.929" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.GenericBlockDeclaration">
+    <Position X="11.75" Y="71.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\GenericBlockDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAAEAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.BlockDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="11" Y="73.938" />
+        <Point X="11.375" Y="73.938" />
+        <Point X="11.375" Y="72.066" />
+        <Point X="11.75" Y="72.066" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.ModuleDeclaration">
+    <Position X="11.75" Y="73.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\ModuleDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.BlockDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="11" Y="73.938" />
+        <Point X="11.375" Y="73.938" />
+        <Point X="11.375" Y="74.27" />
+        <Point X="11.75" Y="74.27" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.ClassDeclaration">
+    <Position X="14" Y="71" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\ClassDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.GenericBlockDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="13.25" Y="72.438" />
+        <Point X="13.625" Y="72.438" />
+        <Point X="13.625" Y="71.551" />
+        <Point X="14" Y="71.551" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.InterfaceDeclaration">
+    <Position X="14" Y="72.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\InterfaceDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.GenericBlockDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="13.25" Y="72.438" />
+        <Point X="13.625" Y="72.438" />
+        <Point X="13.625" Y="72.895" />
+        <Point X="14" Y="72.895" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.StructureDeclaration">
+    <Position X="14" Y="73.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\StructureDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.GenericBlockDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="13.25" Y="72.438" />
+        <Point X="13.625" Y="72.438" />
+        <Point X="13.625" Y="74.051" />
+        <Point X="14" Y="74.051" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.DelegateDeclaration">
+    <Position X="11.75" Y="93.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\DelegateDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAACAAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.Members.SignatureDeclaration" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11" Y="89.812" />
+        <Point X="11.375" Y="89.812" />
+        <Point X="11.375" Y="94.312" />
+        <Point X="11.75" Y="94.312" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.Members.CustomEventDeclaration">
+    <Position X="11.75" Y="90" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\Members\CustomEventDeclaration.cs</FileName>
+      <HashCode>BAAAABAAAgAAABAABAAAAACAAAAAAAgAAAAAAgAAAIA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.Members.SignatureDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="11" Y="89.812" />
+        <Point X="11.375" Y="89.812" />
+        <Point X="11.375" Y="91.508" />
+        <Point X="11.75" Y="91.508" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.Members.EventDeclaration">
+    <Position X="11.75" Y="84.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\Members\EventDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAgAAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.Members.SignatureDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="11" Y="89.812" />
+        <Point X="11.375" Y="89.812" />
+        <Point X="11.375" Y="85.016" />
+        <Point X="11.75" Y="85.016" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.Members.ExternalDeclaration">
+    <Position X="11.75" Y="80.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\Members\ExternalDeclaration.cs</FileName>
+      <HashCode>ABSAIAACAAAAAAAAACEAQAAAAAACAECAAQAAAgIAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.Members.SignatureDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="11" Y="89.812" />
+        <Point X="11.375" Y="89.812" />
+        <Point X="11.375" Y="82.251" />
+        <Point X="11.75" Y="82.251" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.Members.MethodDeclaration">
+    <Position X="11.75" Y="86.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\Members\MethodDeclaration.cs</FileName>
+      <HashCode>AAAAABAAAgAAABAAQAAAAAAAAAIABAgAAAAAAgAAAAg=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.Members.SignatureDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="11" Y="89.812" />
+        <Point X="11.375" Y="89.812" />
+        <Point X="11.375" Y="88.258" />
+        <Point X="11.75" Y="88.258" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.Members.ExternalFunctionDeclaration">
+    <Position X="14" Y="81" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\Members\ExternalFunctionDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.Members.ExternalDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="13.25" Y="82.25" />
+        <Point X="13.625" Y="82.25" />
+        <Point X="13.625" Y="81.551" />
+        <Point X="14" Y="81.551" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.Members.ExternalSubDeclaration">
+    <Position X="14" Y="82.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\Members\ExternalSubDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.Members.ExternalDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="13.25" Y="82.25" />
+        <Point X="13.625" Y="82.25" />
+        <Point X="13.625" Y="82.706" />
+        <Point X="14" Y="82.706" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.Members.ConstructorDeclaration">
+    <Position X="14" Y="86.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\Members\ConstructorDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.Members.MethodDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="13.25" Y="88.25" />
+        <Point X="13.625" Y="88.25" />
+        <Point X="13.625" Y="87.099" />
+        <Point X="14" Y="87.099" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.Members.FunctionDeclaration">
+    <Position X="14" Y="84" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\Members\FunctionDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.Members.MethodDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="13.25" Y="88.25" />
+        <Point X="13.625" Y="88.25" />
+        <Point X="13.625" Y="84.551" />
+        <Point X="14" Y="84.551" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.Members.OperatorDeclaration">
+    <Position X="14" Y="90.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\Members\OperatorDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAgAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.Members.MethodDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="13.25" Y="88.25" />
+        <Point X="13.625" Y="88.25" />
+        <Point X="13.625" Y="91.335" />
+        <Point X="14" Y="91.335" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.Members.PropertyDeclaration">
+    <Position X="14" Y="87.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\Members\PropertyDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAAgAAAAAAgAgAAAAAAAAAAAAAAAAIAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.Members.MethodDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="13.25" Y="88.25" />
+        <Point X="13.625" Y="88.25" />
+        <Point X="13.625" Y="89.179" />
+        <Point X="14" Y="89.179" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.Members.SubDeclaration">
+    <Position X="14" Y="85.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\Members\SubDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.Members.MethodDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="13.25" Y="88.25" />
+        <Point X="13.625" Y="88.25" />
+        <Point X="13.625" Y="85.801" />
+        <Point X="14" Y="85.801" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.DelegateFunctionDeclaration">
+    <Position X="14" Y="92.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\DelegateFunctionDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.DelegateDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="13.25" Y="94.188" />
+        <Point X="13.625" Y="94.188" />
+        <Point X="13.625" Y="93.383" />
+        <Point X="14" Y="93.383" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Declarations.DelegateSubDeclaration">
+    <Position X="14" Y="94.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Declarations\DelegateSubDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Declarations.DelegateDeclaration" FixedFromPoint="true">
+      <Path>
+        <Point X="13.25" Y="94.188" />
+        <Point X="13.625" Y="94.188" />
+        <Point X="13.625" Y="94.801" />
+        <Point X="14" Y="94.801" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.ErrorStatement">
+    <Position X="9.5" Y="175.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\ErrorStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.ExpressionStatement" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.75" Y="177.188" />
+        <Point X="9.125" Y="177.188" />
+        <Point X="9.125" Y="176.062" />
+        <Point X="9.5" Y="176.062" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.ReturnStatement">
+    <Position X="9.5" Y="172.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\ReturnStatement.cs</FileName>
+      <HashCode>AAQAAAAAAAEAAAAACAAAAAEAAAAAAAAAAAAAAAACAEA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.ExpressionStatement" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.75" Y="177.188" />
+        <Point X="9.125" Y="177.188" />
+        <Point X="9.125" Y="173.938" />
+        <Point X="9.5" Y="173.938" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.ThrowStatement">
+    <Position X="9.5" Y="177" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\ThrowStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.ExpressionStatement" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="177.188" />
+        <Point X="9.125" Y="177.188" />
+        <Point X="9.125" Y="177.645" />
+        <Point X="9.5" Y="177.645" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.AddHandlerStatement">
+    <Position X="9.5" Y="159.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\AddHandlerStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.HandlerStatement" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="160.875" />
+        <Point X="9.125" Y="160.875" />
+        <Point X="9.125" Y="160.301" />
+        <Point X="9.5" Y="160.301" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.RemoveHandlerStatement">
+    <Position X="9.5" Y="161" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\RemoveHandlerStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.HandlerStatement" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="160.875" />
+        <Point X="9.125" Y="160.875" />
+        <Point X="9.125" Y="161.551" />
+        <Point X="9.5" Y="161.551" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.GoSubStatement">
+    <Position X="9.5" Y="165" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\GoSubStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.LabelReferenceStatement" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="166.826" />
+        <Point X="9.125" Y="166.826" />
+        <Point X="9.125" Y="165.742" />
+        <Point X="9.5" Y="165.742" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.GotoStatement">
+    <Position X="9.5" Y="166.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\GotoStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.LabelReferenceStatement" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="166.826" />
+        <Point X="9.125" Y="166.826" />
+        <Point X="9.125" Y="167.339" />
+        <Point X="9.5" Y="167.339" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.LabelStatement">
+    <Position X="9.5" Y="168" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\LabelStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.LabelReferenceStatement" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="166.826" />
+        <Point X="9.125" Y="166.826" />
+        <Point X="9.125" Y="168.551" />
+        <Point X="9.5" Y="168.551" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.OnErrorStatement">
+    <Position X="9.5" Y="169.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\OnErrorStatement.cs</FileName>
+      <HashCode>AABEAAAAAAAAABAIAAAhAAAAAMAAAAAAAAAAQggAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.LabelReferenceStatement" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="166.826" />
+        <Point X="9.125" Y="166.826" />
+        <Point X="9.125" Y="170.922" />
+        <Point X="9.5" Y="170.922" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.ResumeStatement">
+    <Position X="9.5" Y="162.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\ResumeStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAABAAAAAAAAACAAgAAAAAAAAgAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.LabelReferenceStatement" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.75" Y="166.826" />
+        <Point X="9.125" Y="166.826" />
+        <Point X="9.125" Y="163.75" />
+        <Point X="9.5" Y="163.75" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Serializers.ErrorXmlSerializer">
+    <Position X="2.75" Y="121.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Serializers\ErrorXmlSerializer.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Serializers.XmlSerializer&lt;CustomType&gt;" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="128.437" />
+        <Point X="2.375" Y="128.437" />
+        <Point X="2.375" Y="122.062" />
+        <Point X="2.75" Y="122.062" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Serializers.XmlSerializer&lt;CustomType&gt;">
+    <Position X="0.5" Y="127" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Serializers\XmlSerializer.cs</FileName>
+      <HashCode>EAAAAAAAAAAAAAAAAAAIAEAAADAAAAAAAAAAABAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Serializers.TokenXmlSerializer">
+    <Position X="2.75" Y="119.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Serializers\TokenXmlSerializer.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Serializers.XmlSerializer&lt;CustomType&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="2" Y="128.437" />
+        <Point X="2.375" Y="128.437" />
+        <Point X="2.375" Y="120.383" />
+        <Point X="2.75" Y="120.383" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Serializers.TreeXmlSerializer">
+    <Position X="2.75" Y="122.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Serializers\TreeXmlSerializer.cs</FileName>
+      <HashCode>9hGsIrK9hB41Q0AYZQWY4Sa5wXB7AShoxIjCoVBbxRo=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Serializers.XmlSerializer&lt;CustomType&gt;" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="128.437" />
+        <Point X="2.375" Y="128.437" />
+        <Point X="2.375" Y="135.5" />
+        <Point X="2.75" Y="135.5" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Tokens.ErrorToken">
+    <Position X="9.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Tokens\ErrorToken.cs</FileName>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Tokens.Token" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="10.187" />
+        <Point X="9.125" Y="10.187" />
+        <Point X="9.125" Y="3.683" />
+        <Point X="9.5" Y="3.683" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Tokens.IdentifierToken">
+    <Position X="9.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Tokens\IdentifierToken.cs</FileName>
+      <HashCode>AAAgQAQCCADMAQAmAAAAAAoAAAAEIAQAQEAhQAoAAQA=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Struct Name="VBConverter.CodeParser.Tokens.IdentifierToken.Keyword" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Tokens\IdentifierToken.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <InheritanceLine Type="VBConverter.CodeParser.Tokens.Token" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="10.187" />
+        <Point X="9.125" Y="10.187" />
+        <Point X="9.125" Y="12.107" />
+        <Point X="9.5" Y="12.107" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Tokens.PunctuatorToken">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Tokens\PunctuatorToken.cs</FileName>
+      <HashCode>AAAgAAAAAAEIAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Tokens.Token" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="10.187" />
+        <Point X="9.125" Y="10.187" />
+        <Point X="9.125" Y="1.488" />
+        <Point X="9.5" Y="1.488" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Tokens.Token">
+    <Position X="7.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Tokens\Token.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAACAAAAAAAAQAAAAoABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Tokens.Terminator.LineTerminatorToken">
+    <Position X="9.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Tokens\Terminator\LineTerminatorToken.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Tokens.Token" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="10.187" />
+        <Point X="9.125" Y="10.187" />
+        <Point X="9.125" Y="17.301" />
+        <Point X="9.5" Y="17.301" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Tokens.Terminator.CommentToken">
+    <Position X="9.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Tokens\Terminator\CommentToken.cs</FileName>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAIQAAAAAAAAAQAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Tokens.Token" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.75" Y="10.187" />
+        <Point X="9.125" Y="10.187" />
+        <Point X="9.125" Y="15.375" />
+        <Point X="9.5" Y="15.375" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Tokens.Terminator.EndOfStreamToken">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Tokens\Terminator\EndOfStreamToken.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Tokens.Token" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="10.187" />
+        <Point X="9.125" Y="10.187" />
+        <Point X="9.125" Y="5.301" />
+        <Point X="9.5" Y="5.301" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Tokens.Literal.CharacterLiteralToken">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Tokens\Literal\CharacterLiteralToken.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Tokens.Literal.LiteralToken&lt;LiteralType&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="11" Y="7.062" />
+        <Point X="11.375" Y="7.062" />
+        <Point X="11.375" Y="1.051" />
+        <Point X="11.75" Y="1.051" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Tokens.Literal.UnsignedIntegerLiteralToken">
+    <Position X="11.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Tokens\Literal\UnsignedIntegerLiteralToken.cs</FileName>
+      <HashCode>AAQAAAAAAAACAAAAAEAAAAIAAAAAAAAAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Tokens.Literal.LiteralToken&lt;LiteralType&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="11" Y="7.062" />
+        <Point X="11.375" Y="7.062" />
+        <Point X="11.375" Y="4.929" />
+        <Point X="11.75" Y="4.929" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Tokens.Literal.DateLiteralToken">
+    <Position X="11.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Tokens\Literal\DateLiteralToken.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Tokens.Literal.LiteralToken&lt;LiteralType&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="11" Y="7.062" />
+        <Point X="11.375" Y="7.062" />
+        <Point X="11.375" Y="10.051" />
+        <Point X="11.75" Y="10.051" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Tokens.Literal.DecimalLiteralToken">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Tokens\Literal\DecimalLiteralToken.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Tokens.Literal.LiteralToken&lt;LiteralType&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="11" Y="7.062" />
+        <Point X="11.375" Y="7.062" />
+        <Point X="11.375" Y="2.683" />
+        <Point X="11.75" Y="2.683" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Tokens.Literal.FloatingPointLiteralToken">
+    <Position X="11.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Tokens\Literal\FloatingPointLiteralToken.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Tokens.Literal.LiteralToken&lt;LiteralType&gt;" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11" Y="7.062" />
+        <Point X="11.375" Y="7.062" />
+        <Point X="11.375" Y="7.5" />
+        <Point X="11.75" Y="7.5" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Tokens.Literal.IntegerLiteralToken">
+    <Position X="11.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Tokens\Literal\IntegerLiteralToken.cs</FileName>
+      <HashCode>AAAAAAAAAAACAAAAAEAAAAIAAAAAAAAAQAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Tokens.Literal.LiteralToken&lt;LiteralType&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="11" Y="7.062" />
+        <Point X="11.375" Y="7.062" />
+        <Point X="11.375" Y="11.847" />
+        <Point X="11.75" Y="11.847" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Tokens.Literal.LiteralToken&lt;LiteralType&gt;">
+    <Position X="9.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Tokens\Literal\LiteralToken.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Tokens.Token" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="10.187" />
+        <Point X="9.125" Y="10.187" />
+        <Point X="9.125" Y="6.933" />
+        <Point X="9.5" Y="6.933" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Tokens.Literal.StringLiteralToken">
+    <Position X="11.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Tokens\Literal\StringLiteralToken.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Tokens.Literal.LiteralToken&lt;LiteralType&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="11" Y="7.062" />
+        <Point X="11.375" Y="7.062" />
+        <Point X="11.375" Y="8.801" />
+        <Point X="11.75" Y="8.801" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.LanguageInfo">
+    <Position X="7.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>LanguageInfo.cs</FileName>
+      <HashCode>AAAAAAAIAAKAABAEAAAAIAQAAAAAAEAIAAAkAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Parser" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Parser.cs</FileName>
+      <HashCode>vt5MVp6Ynq/PL1F3lNVnk5KirC32LzG1GSr3yjtnngc=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.CaseBlockStatement">
+    <Position X="9.5" Y="123" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\CaseBlockStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAIAAAAAAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.BlockStatement" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="140.125" />
+        <Point X="9.125" Y="140.125" />
+        <Point X="9.125" Y="124.015" />
+        <Point X="9.5" Y="124.015" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.CaseElseBlockStatement">
+    <Position X="9.5" Y="125.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\CaseElseBlockStatement.cs</FileName>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.BlockStatement" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="140.125" />
+        <Point X="9.125" Y="140.125" />
+        <Point X="9.125" Y="126.265" />
+        <Point X="9.5" Y="126.265" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.CatchBlockStatement">
+    <Position X="9.5" Y="127.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\CatchBlockStatement.cs</FileName>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.BlockStatement" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="140.125" />
+        <Point X="9.125" Y="140.125" />
+        <Point X="9.125" Y="128.515" />
+        <Point X="9.5" Y="128.515" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.DoBlockStatement">
+    <Position X="9.5" Y="129.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\DoBlockStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAABkAAAAAQAAEAQAAAABgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.BlockStatement" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="140.125" />
+        <Point X="9.125" Y="140.125" />
+        <Point X="9.125" Y="131.258" />
+        <Point X="9.5" Y="131.258" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.ElseBlockStatement">
+    <Position X="9.5" Y="133" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\ElseBlockStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAACAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.BlockStatement" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="140.125" />
+        <Point X="9.125" Y="140.125" />
+        <Point X="9.125" Y="134.015" />
+        <Point X="9.5" Y="134.015" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.ElseIfBlockStatement">
+    <Position X="9.5" Y="135.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\ElseIfBlockStatement.cs</FileName>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.BlockStatement" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="140.125" />
+        <Point X="9.125" Y="140.125" />
+        <Point X="9.125" Y="136.265" />
+        <Point X="9.5" Y="136.265" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.ExpressionBlockStatement">
+    <Position X="9.5" Y="141" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\ExpressionBlockStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAABgAAAAAQAAAAQAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.BlockStatement" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="140.125" />
+        <Point X="9.125" Y="140.125" />
+        <Point X="9.125" Y="142.179" />
+        <Point X="9.5" Y="142.179" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.FinallyBlockStatement">
+    <Position X="9.5" Y="139" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\FinallyBlockStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAQAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.BlockStatement" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="140.125" />
+        <Point X="9.125" Y="140.125" />
+        <Point X="9.125" Y="139.563" />
+        <Point X="9.5" Y="139.563" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.ForBlockStatement">
+    <Position X="9.5" Y="143.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\ForBlockStatement.cs</FileName>
+      <HashCode>AAAQECgIgAAAUAAAAAAAAAAQAgAAAAAQAAQAAkEAgBA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.BlockStatement" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.75" Y="140.125" />
+        <Point X="9.125" Y="140.125" />
+        <Point X="9.125" Y="146.063" />
+        <Point X="9.5" Y="146.063" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.ForEachBlockStatement">
+    <Position X="9.5" Y="148.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\ForEachBlockStatement.cs</FileName>
+      <HashCode>QAQAAAAAgAAAAAAABAAAAAAQAgAAACAAAAAAAwEAgBA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.BlockStatement" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.75" Y="140.125" />
+        <Point X="9.125" Y="140.125" />
+        <Point X="9.125" Y="150.188" />
+        <Point X="9.5" Y="150.188" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.IfBlockStatement">
+    <Position X="9.5" Y="152" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\IfBlockStatement.cs</FileName>
+      <HashCode>BQAAAAAgQAEAAAAAAAABgAAAAAQAAAAQIAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.BlockStatement" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.75" Y="140.125" />
+        <Point X="9.125" Y="140.125" />
+        <Point X="9.125" Y="153.75" />
+        <Point X="9.5" Y="153.75" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.SelectBlockStatement">
+    <Position X="9.5" Y="155.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\SelectBlockStatement.cs</FileName>
+      <HashCode>AAAAAIAAgAACAAAAAAABgBAAAAQAAAAUAAAAAoAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.BlockStatement" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="140.125" />
+        <Point X="9.125" Y="140.125" />
+        <Point X="9.125" Y="156.922" />
+        <Point X="9.5" Y="156.922" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.TryBlockStatement">
+    <Position X="9.5" Y="120" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\TryBlockStatement.cs</FileName>
+      <HashCode>AAAAAAAAEAAAAAQAAAABAAAAEAQAACAAAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.BlockStatement" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="140.125" />
+        <Point X="9.125" Y="140.125" />
+        <Point X="9.125" Y="121.343" />
+        <Point X="9.5" Y="121.343" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.SyncLockBlockStatement">
+    <Position X="11.75" Y="144.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\SyncLockBlockStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.ExpressionBlockStatement" FixedFromPoint="true">
+      <Path>
+        <Point X="11" Y="142.188" />
+        <Point X="11.375" Y="142.188" />
+        <Point X="11.375" Y="145.051" />
+        <Point X="11.75" Y="145.051" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.UsingBlockStatement">
+    <Position X="11.75" Y="142.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\UsingBlockStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAkAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.ExpressionBlockStatement" FixedFromPoint="true">
+      <Path>
+        <Point X="11" Y="142.188" />
+        <Point X="11.375" Y="142.188" />
+        <Point X="11.375" Y="143.265" />
+        <Point X="11.75" Y="143.265" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.WhileBlockStatement">
+    <Position X="11.75" Y="139.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\WhileStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.ExpressionBlockStatement" FixedFromPoint="true">
+      <Path>
+        <Point X="11" Y="142.188" />
+        <Point X="11.375" Y="142.188" />
+        <Point X="11.375" Y="139.801" />
+        <Point X="11.75" Y="139.801" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Trees.Statements.WithBlockStatement">
+    <Position X="11.75" Y="140.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Statements\WithStatement.cs</FileName>
+      <HashCode>AIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="VBConverter.CodeParser.Trees.Statements.ExpressionBlockStatement" FixedFromPoint="true">
+      <Path>
+        <Point X="11" Y="142.188" />
+        <Point X="11.375" Y="142.188" />
+        <Point X="11.375" Y="141.324" />
+        <Point X="11.75" Y="141.324" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Context.ConditionalCompilationContext">
+    <Position X="11.75" Y="41.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Context\ConditionalCompilationContext.cs</FileName>
+      <HashCode>AAAgAAAAQAAAAAAAAAAAAAAAAAAAQAIAAAQBAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Context.ExternalChecksum">
+    <Position X="11.75" Y="51.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Context\ExternalChecksum.cs</FileName>
+      <HashCode>AAAAAAAAAAAAQAAAEAAAAgAAAAAABAQAAAAAAAAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Context.ExternalLineMapping">
+    <Position X="11.75" Y="43.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Context\ExternalLineMapping.cs</FileName>
+      <HashCode>AAABAAAAACAAQAAAAAAAAAAAAAAEkAAAAAAAAAABAAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Context.ExternalSourceContext">
+    <Position X="11.75" Y="54.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Context\ExternalSourceContext.cs</FileName>
+      <HashCode>AAABAAAAACAAAAAAAAAAAAAAAAAEkAAAAAAAAAABAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Context.RegionContext">
+    <Position X="11.75" Y="49.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Context\RegionContext.cs</FileName>
+      <HashCode>AAAAAAAAACAgAAAAAAAAAAAAAAAAgAAEAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Error.SyntaxError">
+    <Position X="11.75" Y="46.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Error\SyntaxError.cs</FileName>
+      <HashCode>AAAAAAAACAAAAAAEAAAAAAAACAAAAAAAAQAAAAIABQA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VBConverter.CodeParser.Scanner" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Scanner.cs</FileName>
+      <HashCode>IlBnDNEgNqQEEsRmiACiwQsoZURA0AMsEgANUEq4AKA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VBConverter.CodeParser.Context.SourceRegion">
+    <Position X="11.75" Y="37.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Context\SourceRegion.cs</FileName>
+      <HashCode>AAAAAAAAACAgQAAAAAAAAAAAAAAAgAAEAAAAAAAAAAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="VBConverter.CodeParser.Span">
+    <Position X="7.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Span.cs</FileName>
+      <HashCode>AAAAAAAAACAAQAAEgAqAAgAAAAAAgIAAAAAAAAAAAig=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="VBConverter.CodeParser.Location">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Location.cs</FileName>
+      <HashCode>AAAhAAAAAAAAAgAEgArAAgAAAAAAAIAAAAFAAAABByA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="VBConverter.CodeParser.Base.TypeCharacter">
+    <Position X="14" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Base\TypeCharacter.cs</FileName>
+      <HashCode>AAAAAgAAAAAAAQAAAABAQAABIgAAACIIAIAEABGBQAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VBConverter.CodeParser.Base.Charset">
+    <Position X="14" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Base\Charset.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAECAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VBConverter.CodeParser.Base.IntegerBase">
+    <Position X="14" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Base\IntegerBase.cs</FileName>
+      <HashCode>AAAAAAAAAAAgAAAACAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VBConverter.CodeParser.Error.SyntaxErrorType">
+    <Position X="2.75" Y="145.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Error\SyntaxErrorType.cs</FileName>
+      <HashCode>r3WRXufl/DOAzSYlrsjSIxsPIVjFD96KdECEGZ/ESlM=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VBConverter.CodeParser.Tokens.TokenType">
+    <Position X="14" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Tokens\TokenType.cs</FileName>
+      <HashCode>8iKdeKN8wyr1R7/5+U9nf4KnfqXK4q8vuah8+20VaOY=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VBConverter.CodeParser.LanguageVersion">
+    <Position X="11.75" Y="63.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>LanguageVersion.cs</FileName>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAACAAAAAAAIAAAAAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VBConverter.CodeParser.Trees.FileType">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\FileType.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAACAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VBConverter.CodeParser.Trees.TreeType">
+    <Position X="0.5" Y="48" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\TreeType.cs</FileName>
+      <HashCode>wBYdBqgU1O2aGOAllGkCgL8uQv5eeBg5ppeub0UFb6U=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VBConverter.CodeParser.Trees.Attributes.AttributeTypes">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Attributes\AttributeTypes.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAACAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VBConverter.CodeParser.Trees.Modifiers.ModifierTypes">
+    <Position X="14" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Modifiers\ModifierTypes.cs</FileName>
+      <HashCode>QAARBAAAASAAAIcgIAEgMAACUAAAAAAGCAAsAAUAQAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VBConverter.CodeParser.Trees.Names.SpecialNameTypes">
+    <Position X="14" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Names\SpecialNameTypes.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAARAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VBConverter.CodeParser.Trees.Types.UnaryOperatorType">
+    <Position X="14" Y="64.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Types\UnaryOperatorType.cs</FileName>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAACAAAAAAAAAEAAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VBConverter.CodeParser.Trees.Types.BinaryOperatorType">
+    <Position X="11.75" Y="65.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Types\BinaryOperatorType.cs</FileName>
+      <HashCode>ICAAAAAAASAAQAgAwAEBAAARAABIgAAhACAJAAURADA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VBConverter.CodeParser.Trees.Types.BlockType">
+    <Position X="14" Y="65.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Types\BlockType.cs</FileName>
+      <HashCode>AAAAACAAAAAABABQCAJABAIkKgAAIAgAEABASUEAIAQ=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VBConverter.CodeParser.Trees.Types.InstanceType">
+    <Position X="14" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Types\InstanceType.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VBConverter.CodeParser.Trees.Types.IntrinsicType">
+    <Position X="14" Y="60.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Types\IntrinsicType.cs</FileName>
+      <HashCode>EAAAAAEAAQAgARCgQAAAAACgDACCAiABAAAAAAEACAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VBConverter.CodeParser.Trees.Types.OptionType">
+    <Position X="11.75" Y="56.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Types\OptionType.cs</FileName>
+      <HashCode>AAAAAgQAIAAAAAAAIAAQQgAAAAAAAACAIAAAABAAEAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VBConverter.CodeParser.Trees.Types.PrecedenceLevel">
+    <Position X="11.75" Y="60.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Trees\Types\PrecedenceLevel.cs</FileName>
+      <HashCode>IAAAAAACAAAACAgAAAABAAAQACAAgAAhACAEAAEQABA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

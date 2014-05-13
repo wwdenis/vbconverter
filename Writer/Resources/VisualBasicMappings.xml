@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mappings>
+
+  <mapping type="method" library=""     class=""             name="LBound"  new_class="Information"  new_name="" supported="yes" />
+  <mapping type="method" library=""     class=""             name="UBound"  new_class="Information"  new_name="" supported="yes" />
+
+  <mapping type="constant" library="VBA"  class="Constants" name="vbBack"         new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="Constants" name="vbCr"           new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="Constants" name="vbCrLf"         new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="Constants" name="vbFormFeed"     new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="Constants" name="vbLf"           new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="Constants" name="vbNewLine"      new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="Constants" name="vbNullChar"     new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="Constants" name="vbNullString"   new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="Constants" name="vbObjectError"  new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="Constants" name="vbTab"          new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="Constants" name="vbVerticalTab"  new_class="Constants"  new_name="" supported="yes" />
+
+  <mapping type="constant" library="VBA"  class="VbAppWinStyle" name="vbHide"             new_class="Constants"   new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbAppWinStyle" name="vbMaximizedFocus"   new_class="Constants"   new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbAppWinStyle" name="vbMinimizedFocus"   new_class="Constants"   new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbAppWinStyle" name="vbMinimizedNoFocus" new_class="Constants"   new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbAppWinStyle" name="vbNormalFocus"      new_class="Constants"   new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbAppWinStyle" name="vbNormalNoFocus"    new_class="Constants"   new_name="" supported="yes" />
+
+  <mapping type="constant" library="VBA"  class="VbCalendar"  name="vbCalGreg"  new_class=""  new_name="" supported="no" />
+  <mapping type="constant" library="VBA"  class="VbCalendar"  name="vbCalHijri" new_class=""  new_name="" supported="no" />
+
+  <mapping type="constant" library="VBA"  class="VbCallType"  name="VbGet"    new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbCallType"  name="VbLet"    new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbCallType"  name="VbMethod" new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbCallType"  name="VbSet"    new_class="Constants"  new_name="" supported="yes" />
+
+  <mapping type="constant" library="VBA"  class="VbCompareMethod" name="vbBinaryCompare"    new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbCompareMethod" name="vbDatabaseCompare"  new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbCompareMethod" name="vbTextCompare"      new_class="Constants"  new_name="" supported="yes" />
+
+  <mapping type="constant" library="VBA"  class="VbDateTimeFormat" name="vbGeneralDate" new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbDateTimeFormat" name="vbLongDate"    new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbDateTimeFormat" name="vbLongTime"    new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbDateTimeFormat" name="vbShortDate"   new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbDateTimeFormat" name="vbShortTime"   new_class="Constants"  new_name="" supported="yes" />
+
+  <mapping type="constant" library="VBA"  class="VbDayOfWeek" name="vbFriday"               new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbDayOfWeek" name="vbMonday"               new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbDayOfWeek" name="vbSaturday"             new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbDayOfWeek" name="vbSunday"               new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbDayOfWeek" name="vbThursday"             new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbDayOfWeek" name="vbTuesday"              new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbDayOfWeek" name="vbUseSystemDayOfWeek"   new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbDayOfWeek" name="vbWednesday"            new_class="Constants"  new_name="" supported="yes" />
+  
+  <mapping type="constant" library="VBA"  class="VbFileAttribute" name="vbAlias"      new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbFileAttribute" name="vbArchive"    new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbFileAttribute" name="vbDirectory"  new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbFileAttribute" name="vbHidden"     new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbFileAttribute" name="vbNormal"     new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbFileAttribute" name="vbReadOnly"   new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbFileAttribute" name="vbSystem"     new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbFileAttribute" name="vbVolume"     new_class="Constants"  new_name="" supported="yes" />
+
+  <mapping type="constant" library="VBA"  class="VbFirstWeekOfYear" name="vbFirstFourDays"  new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbFirstWeekOfYear" name="vbFirstFullWeek"  new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbFirstWeekOfYear" name="vbFirstJan1"      new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbFirstWeekOfYear" name="vbUseSystem"      new_class="Constants"  new_name="" supported="yes" />
+
+  <mapping type="constant" library="VBA"  class="VbIMEStatus" name="vbIMEAlphaDbl"          new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbIMEStatus" name="vbIMEAlphaSng"          new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbIMEStatus" name="vbIMEDisable"           new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbIMEStatus" name="vbIMEHiragana"          new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbIMEStatus" name="vbIMEKatakanaDbl"       new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbIMEStatus" name="vbIMEKatakanaSng"       new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbIMEStatus" name="vbIMEModeAlpha"         new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbIMEStatus" name="vbIMEModeAlphaFull"     new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbIMEStatus" name="vbIMEModeDisable"       new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbIMEStatus" name="vbIMEModeHangul"        new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbIMEStatus" name="vbIMEModeHangulFull"    new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbIMEStatus" name="vbIMEModeHiragana"      new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbIMEStatus" name="vbIMEModeKatakana"      new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbIMEStatus" name="vbIMEModeKatakanaHalf"  new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbIMEStatus" name="vbIMEModeNoControl"     new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbIMEStatus" name="vbIMEModeOff"           new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbIMEStatus" name="vbIMEModeOn"            new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbIMEStatus" name="vbIMENoOp"              new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbIMEStatus" name="vbIMEOff"               new_class="Constants"  new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbIMEStatus" name="vbIMEOn"                new_class="Constants"  new_name="" supported="yes" />
+
+  <mapping type="constant" library="VBA"  class="VbMsgBoxResult" name="vbAbort"   new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxResult" name="vbCancel"  new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxResult" name="vbIgnore"  new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxResult" name="vbNo"      new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxResult" name="vbOK"      new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxResult" name="vbRetry"   new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxResult" name="vbYes"     new_class="Constants" new_name="" supported="yes" />
+  
+  <mapping type="constant" library="VBA"  class="VbMsgBoxStyle" name="vbAbortRetryIgnore"     new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxStyle" name="vbApplicationModal"     new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxStyle" name="vbCritical"             new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxStyle" name="vbDefaultButton1"       new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxStyle" name="vbDefaultButton2"       new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxStyle" name="vbDefaultButton3"       new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxStyle" name="vbDefaultButton4"       new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxStyle" name="vbExclamation"          new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxStyle" name="vbInformation"          new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxStyle" name="vbMsgBoxHelpButton"     new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxStyle" name="vbMsgBoxRight"          new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxStyle" name="vbMsgBoxRtlReading"     new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxStyle" name="vbMsgBoxSetForeground"  new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxStyle" name="vbOKCancel"             new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxStyle" name="vbOKOnly"               new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxStyle" name="vbQuestion"             new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxStyle" name="vbRetryCancel"          new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxStyle" name="vbSystemModal"          new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxStyle" name="vbYesNo"                new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbMsgBoxStyle" name="vbYesNoCancel"          new_class="Constants" new_name="" supported="yes" />
+  
+  <mapping type="constant" library="VBA"  class="VbStrConv" name="vbFromUnicode"  new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbStrConv" name="vbHiragana"     new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbStrConv" name="vbKatakana"     new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbStrConv" name="vbLowerCase"    new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbStrConv" name="vbNarrow"       new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbStrConv" name="vbProperCase"   new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbStrConv" name="vbUnicode"      new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbStrConv" name="vbUpperCase"    new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbStrConv" name="vbWide"         new_class="Constants" new_name="" supported="yes" />
+  
+  <mapping type="constant" library="VBA"  class="VbTriState" name="vbFalse"       new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbTriState" name="vbTrue"        new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbTriState" name="vbUseDefault"  new_class="Constants" new_name="" supported="yes" />
+  
+  <mapping type="constant" library="VBA"  class="VbVarType" name="vbArray"            new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbVarType" name="vbBoolean"          new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbVarType" name="vbByte"             new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbVarType" name="vbCurrency"         new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbVarType" name="vbDataObject"       new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbVarType" name="vbDate"             new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbVarType" name="vbDecimal"          new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbVarType" name="vbDouble"           new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbVarType" name="vbEmpty"            new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbVarType" name="vbError"            new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbVarType" name="vbInteger"          new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbVarType" name="vbLong"             new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbVarType" name="vbNull"             new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbVarType" name="vbObject"           new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbVarType" name="vbSingle"           new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbVarType" name="vbString"           new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbVarType" name="vbUserDefinedType"  new_class="Constants" new_name="" supported="yes" />
+  <mapping type="constant" library="VBA"  class="VbVarType" name="vbVariant"          new_class="Constants" new_name="" supported="yes" />
+
+  <mapping type="method" library="VBA"  class="Conversion" name="CBool"   new_class="" new_name="" supported="no" />
+  <mapping type="method" library="VBA"  class="Conversion" name="CByte"   new_class="" new_name="" supported="no" />
+  <mapping type="method" library="VBA"  class="Conversion" name="CCur"    new_class="" new_name="" supported="no" />
+  <mapping type="method" library="VBA"  class="Conversion" name="CDate"   new_class="" new_name="" supported="no" />
+  <mapping type="method" library="VBA"  class="Conversion" name="CDbl"    new_class="" new_name="" supported="no" />
+  <mapping type="method" library="VBA"  class="Conversion" name="CDec"    new_class="" new_name="" supported="no" />
+  <mapping type="method" library="VBA"  class="Conversion" name="CInt"    new_class="" new_name="" supported="no" />
+  <mapping type="method" library="VBA"  class="Conversion" name="CLng"    new_class="" new_name="" supported="no" />
+  <mapping type="method" library="VBA"  class="Conversion" name="CLng"    new_class="" new_name="" supported="no" />
+  <mapping type="method" library="VBA"  class="Conversion" name="CSng"    new_class="" new_name="" supported="no" />
+  <mapping type="method" library="VBA"  class="Conversion" name="CStr"    new_class="" new_name="" supported="no" />
+  <mapping type="method" library="VBA"  class="Conversion" name="CVar"    new_class="" new_name="" supported="no" />
+
+  <mapping type="method" library="VBA"  class="Conversion" name="CVDate"  new_class="Convert"     new_name="ToDateTime"     supported="yes" />
+  <mapping type="method" library="VBA"  class="Conversion" name="CVErr"   new_class="Conversion"  new_name="ErrorToString"  supported="yes" />
+  <mapping type="method" library="VBA"  class="Conversion" name="Error"   new_class="Conversion"  new_name="ErrorToString"  supported="yes" />
+  <mapping type="method" library="VBA"  class="Conversion" name="Fix"     new_class="Conversion"  new_name=""               supported="yes" />
+  <mapping type="method" library="VBA"  class="Conversion" name="Hex"     new_class="Conversion"  new_name=""               supported="yes" />
+  <mapping type="method" library="VBA"  class="Conversion" name="Int"     new_class="Conversion"  new_name=""               supported="yes" />
+  <mapping type="method" library="VBA"  class="Conversion" name="Oct"     new_class="Conversion"  new_name=""               supported="yes" />
+  <mapping type="method" library="VBA"  class="Conversion" name="Str"     new_class="Conversion"  new_name=""               supported="yes" />
+  <mapping type="method" library="VBA"  class="Conversion" name="Val"     new_class="Conversion"  new_name=""               supported="yes" />
+  
+  <mapping type="method" library="VBA"  class="Interaction"   name="AppActivate"    new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Interaction"   name="Beep"           new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Interaction"   name="CallByName"     new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Interaction"   name="Choose"         new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Interaction"   name="Command"        new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Interaction"   name="CreateObject"   new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Interaction"   name="DeleteSetting"  new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Interaction"   name="DoEvents"       new_class="Application"  new_name="DoEvents" supported="yes" />
+  <mapping type="method" library="VBA"  class="Interaction"   name="Environ"        new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Interaction"   name="GetAllSettings" new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Interaction"   name="GetObject"      new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Interaction"   name="GetSetting"     new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Interaction"   name="IIf"            new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Interaction"   name="InputBox"       new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Interaction"   name="MsgBox"         new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Interaction"   name="Partition"      new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Interaction"   name="SaveSetting"    new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Interaction"   name="SendKeys"       new_class="Keyboard"  new_name="SendKeys" supported="yes" />
+  <mapping type="method" library="VBA"  class="Interaction"   name="Shell"          new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Interaction"   name="Switch"         new_class=""  new_name="" supported="yes" />
+
+  <!--
+  <mapping type="property" library="VBA"  class="DateTime"    name="Calendar"   new_class="DateAndTime" new_name="" supported="yes" />
+  -->
+  <mapping type="property" library="VBA"  class="DateTime"    name="Date"       new_class="DateAndTime" new_name="Today"      supported="yes" />
+  <mapping type="property" library="VBA"  class="DateTime"    name="Now"        new_class="DateTime"    new_name="Now"        supported="yes" />
+  <mapping type="property" library="VBA"  class="DateTime"    name="Time"       new_class="DateAndTime" new_name="TimeOfDay"  supported="yes" />
+  <mapping type="property" library="VBA"  class="DateTime"    name="Timer"      new_class="DateAndTime" new_name="Timer"      supported="yes" />
+
+  <mapping type="method" library="VBA"    class="DateTime"    name="DateAdd"    new_class="DateAndTime" new_name="" supported="yes" />
+  <mapping type="method" library="VBA"    class="DateTime"    name="DateDiff"   new_class="DateAndTime" new_name="" supported="yes" />
+  <mapping type="method" library="VBA"    class="DateTime"    name="DatePart"   new_class="DateAndTime" new_name="" supported="yes" />
+  <mapping type="method" library="VBA"    class="DateTime"    name="DateSerial" new_class="DateAndTime" new_name="" supported="yes" />
+  <mapping type="method" library="VBA"    class="DateTime"    name="DateValue"  new_class="DateAndTime" new_name="" supported="yes" />
+  <mapping type="method" library="VBA"    class="DateTime"    name="Day"        new_class="DateAndTime" new_name="" supported="yes" />
+  <mapping type="method" library="VBA"    class="DateTime"    name="Hour"       new_class="DateAndTime" new_name="" supported="yes" />
+  <mapping type="method" library="VBA"    class="DateTime"    name="Minute"     new_class="DateAndTime" new_name="" supported="yes" />
+  <mapping type="method" library="VBA"    class="DateTime"    name="Month"      new_class="DateAndTime" new_name="" supported="yes" />
+  <mapping type="method" library="VBA"    class="DateTime"    name="Second"     new_class="DateAndTime" new_name="" supported="yes" />
+  <mapping type="method" library="VBA"    class="DateTime"    name="TimeSerial" new_class="DateAndTime" new_name="" supported="yes" />
+  <mapping type="method" library="VBA"    class="DateTime"    name="TimeValue"  new_class="DateAndTime" new_name="" supported="yes" />
+  <mapping type="method" library="VBA"    class="DateTime"    name="Weekday"    new_class="DateAndTime" new_name="" supported="yes" />
+  <mapping type="method" library="VBA"    class="DateTime"    name="Year"       new_class="DateAndTime" new_name="" supported="yes" />
+  
+  <mapping type="method" library="VBA"  class="Err" name="Clear"        new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Err" name="HelpContext"  new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Err" name="HelpFile"     new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Err" name="LastDllError" new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Err" name="Number"       new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Err" name="Raise"        new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Err" name="Source"       new_class=""  new_name="" supported="yes" />
+
+  <mapping type="method" library="VBA"  class="FileSystem"  name="ChDir"        new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="FileSystem"  name="ChDrive"      new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="FileSystem"  name="CurDir"       new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="FileSystem"  name="Dir"          new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="FileSystem"  name="EOF"          new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="FileSystem"  name="FileAttr"     new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="FileSystem"  name="FileCopy"     new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="FileSystem"  name="FileDateTime" new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="FileSystem"  name="FileLen"      new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="FileSystem"  name="FreeFile"     new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="FileSystem"  name="GetAttr"      new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="FileSystem"  name="Kill"         new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="FileSystem"  name="Loc"          new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="FileSystem"  name="LOF"          new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="FileSystem"  name="MkDir"        new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="FileSystem"  name="Reset"        new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="FileSystem"  name="RmDir"        new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="FileSystem"  name="Seek"         new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="FileSystem"  name="SetAttr"      new_class=""  new_name="" supported="yes" />
+
+  <mapping type="method" library="VBA"  class="Financial"   name="DDB"   new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Financial"   name="FV"    new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Financial"   name="IPmt"  new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Financial"   name="IRR"   new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Financial"   name="MIRR"  new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Financial"   name="NPer"  new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Financial"   name="NPV"   new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Financial"   name="Pmt"   new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Financial"   name="PPmt"  new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Financial"   name="PV"    new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Financial"   name="Rate"  new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Financial"   name="SLN"   new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Financial"   name="SYD"   new_class=""  new_name="" supported="yes" />
+
+  <mapping type="method" library="VBA"  class="Information" name="IMEStatus" new_class=""  new_name="" supported="no" />
+  <mapping type="method" library="VBA"  class="Information" name="IsEmpty"   new_class=""  new_name="" supported="no" />
+
+  <mapping type="method" library="VBA"  class="Information"   name="Err"       new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Information"   name="IsArray"   new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Information"   name="IsDate"    new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Information"   name="IsError"   new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Information"   name="IsMissing" new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Information"   name="IsNull"    new_class=""  new_name="IsDbNull" supported="yes" />
+  <mapping type="method" library="VBA"  class="Information"   name="IsNumeric" new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Information"   name="IsObject"  new_class=""  new_name="IsReference" supported="yes" />
+  <mapping type="method" library="VBA"  class="Information"   name="QBColor"   new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Information"   name="RGB"       new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Information"   name="TypeName"  new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Information"   name="VarType"   new_class=""  new_name="" supported="yes" />
+
+  <mapping type="method" library="VBA"  class="Math" name="Abs"       new_class=""        new_name=""     supported="yes" />
+  <mapping type="method" library="VBA"  class="Math" name="Atn"       new_class=""        new_name="Atan" supported="yes" />
+  <mapping type="method" library="VBA"  class="Math" name="Cos"       new_class=""        new_name=""     supported="yes" />
+  <mapping type="method" library="VBA"  class="Math" name="Exp"       new_class=""        new_name=""     supported="yes" />
+  <mapping type="method" library="VBA"  class="Math" name="Log"       new_class=""        new_name=""     supported="yes" />
+  <mapping type="method" library="VBA"  class="Math" name="Randomize" new_class="VBMath"  new_name=""     supported="yes" />
+  <mapping type="method" library="VBA"  class="Math" name="Rnd"       new_class="VBMath"  new_name=""     supported="yes" />
+  <mapping type="method" library="VBA"  class="Math" name="Round"     new_class=""        new_name=""     supported="yes" />
+  <mapping type="method" library="VBA"  class="Math" name="Sgn"       new_class=""        new_name="Sign" supported="yes" />
+  <mapping type="method" library="VBA"  class="Math" name="Sin"       new_class=""        new_name=""     supported="yes" />
+  <mapping type="method" library="VBA"  class="Math" name="Sqr"       new_class=""        new_name="Sqrt" supported="yes" />
+  <mapping type="method" library="VBA"  class="Math" name="Tan"       new_class=""        new_name=""     supported="yes" />
+
+  <mapping type="method" library="VBA"  class="Strings"  name="AscB"    new_class=""  new_name="Asc"    supported="no" />
+  <mapping type="method" library="VBA"  class="Strings"  name="ChrB"    new_class=""  new_name="Chr"    supported="no" />
+  <mapping type="method" library="VBA"  class="Strings"  name="InStrB"  new_class=""  new_name="InStr"  supported="no" />
+  <mapping type="method" library="VBA"  class="Strings"  name="LeftB"   new_class=""  new_name="Left"   supported="no" />
+  <mapping type="method" library="VBA"  class="Strings"  name="LenB"    new_class=""  new_name="Len"    supported="no" />
+  <mapping type="method" library="VBA"  class="Strings"  name="MidB"    new_class=""  new_name="Mid"    supported="no" />
+  <mapping type="method" library="VBA"  class="Strings"  name="RightB"  new_class=""  new_name="Right"  supported="no" />
+
+  <mapping type="method" library="VBA"  class="Strings"  name="MonthName"   new_class="DateAndTime"  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="WeekdayName" new_class="DateAndTime"  new_name="" supported="yes" />
+  
+  <mapping type="method" library="VBA"  class="Strings"  name="Asc"             new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="AscW"            new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="Chr"             new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="ChrW"            new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="Filter"          new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="Format"          new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="FormatCurrency"  new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="FormatDateTime"  new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="FormatNumber"    new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="FormatPercent"   new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="InStr"           new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="InStrRev"        new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="Join"            new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="LCase"           new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="Len"             new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="Left"            new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="LTrim"           new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="Mid"             new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="Replace"         new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="Right"           new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="RTrim"           new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="Space"           new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="Split"           new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="StrComp"         new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="StrConv"         new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="String"          new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="StrReverse"      new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="Trim"            new_class=""  new_name="" supported="yes" />
+  <mapping type="method" library="VBA"  class="Strings"  name="UCase"           new_class=""  new_name="" supported="yes" />
+  
+</mappings>
