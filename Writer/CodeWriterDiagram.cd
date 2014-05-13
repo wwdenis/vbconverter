@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="VBConverter.CodeWriter.Entities.CodeVariableDeclaratorCollection">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\CodeVariableDeclaratorCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAIABAAAAAAAAAAAAABAAACAAEAAAAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VBConverter.CodeWriter.Entities.CodeBreakStatement">
+    <Position X="7.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\CodeBreakStatement.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VBConverter.CodeWriter.Entities.CodeDeclaration">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\CodeDeclaration.cs</FileName>
+      <HashCode>AAAAAAAAEAAAAARAAAAAAAAAAAAABAAAAQAEAAAAIAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VBConverter.CodeWriter.Entities.CodeDeclarationCollection">
+    <Position X="5.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\CodeDeclarationCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAEAAAAIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VBConverter.CodeWriter.Entities.CodeParameter">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\CodeParameter.cs</FileName>
+      <HashCode>AAAAgQAAAAAAAAAAIAAAABAAAAAQAAAAIAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VBConverter.CodeWriter.Entities.CodeParameterCollection">
+    <Position X="5.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\CodeParameterCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VBConverter.CodeWriter.Entities.CodeReferenceName">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\CodeReferenceName.cs</FileName>
+      <HashCode>AABBIAEQAAAAAAAAAAAAAIQAAAAQAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VBConverter.CodeWriter.Entities.CodeReferenceNameCollection">
+    <Position X="5.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\CodeReferenceNameCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VBConverter.CodeWriter.Transform.VisuallBasicUtil">
+    <Position X="7.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Transform\VisuallBasicMapping.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VBConverter.CodeWriter.CodeGenerator">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <FileName>CodeGenerator.cs</FileName>
+      <HashCode>9hGsI7K9hB41Y0CYbYXY4aa5wVB7AShozIxDqVhbwRo=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VBConverter.CodeWriter.ConverterEngine">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ConverterEngine.cs</FileName>
+      <HashCode>KAAAAgDAAkBAIQQDAIAAAAQAABAQACAAAAAQAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="VBConverter.CodeWriter.Transform.KeywordMapping">
+    <Position X="7.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Transform\VisuallBasicMapping.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAICAIAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="VBConverter.CodeWriter.Entities.CodeCollectionType">
+    <Position X="3.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\CodeVariableDeclaratorCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VBConverter.CodeWriter.Entities.CodeDeclarationType">
+    <Position X="3.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Entities\CodeDeclaration.cs</FileName>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAACAACAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VBConverter.CodeWriter.DestinationLanguage">
+    <Position X="3.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ConverterEngine.cs</FileName>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

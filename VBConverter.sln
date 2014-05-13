@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VBConverter.CodeParser", "Parser\VBConverter.CodeParser.csproj", "{BB1D594E-13DB-4D05-AAE3-28E8AF8A695C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VBConverter.CodeWriter", "Writer\VBConverter.CodeWriter.csproj", "{CE665A20-7080-42D9-890A-1319F22421A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VBConverter.UI", "UI\VBConverter.UI.csproj", "{2E1203CD-4879-4A33-A1C2-6E308EDE5382}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs22
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Parser\\VBConverter.CodeParser.csproj
+		SccProjectName1 = Parser
+		SccLocalPath1 = Parser
+		SccProjectUniqueName2 = UI\\VBConverter.UI.csproj
+		SccProjectName2 = UI
+		SccLocalPath2 = UI
+		SccProjectUniqueName3 = Writer\\VBConverter.CodeWriter.csproj
+		SccProjectName3 = Writer
+		SccLocalPath3 = Writer
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB1D594E-13DB-4D05-AAE3-28E8AF8A695C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1D594E-13DB-4D05-AAE3-28E8AF8A695C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1D594E-13DB-4D05-AAE3-28E8AF8A695C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1D594E-13DB-4D05-AAE3-28E8AF8A695C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE665A20-7080-42D9-890A-1319F22421A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE665A20-7080-42D9-890A-1319F22421A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE665A20-7080-42D9-890A-1319F22421A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE665A20-7080-42D9-890A-1319F22421A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E1203CD-4879-4A33-A1C2-6E308EDE5382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E1203CD-4879-4A33-A1C2-6E308EDE5382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E1203CD-4879-4A33-A1C2-6E308EDE5382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E1203CD-4879-4A33-A1C2-6E308EDE5382}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
