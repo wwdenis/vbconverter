@@ -65,7 +65,7 @@ Public Const CUSTOMER As Integer = &H16
 **Declarations (C#)**
 ```csharp
 string name;
-private short[]() list = new short[6
+private short[] list = new short[6];
 protected ADODB.Recordset rs;
 internal DateTime birthDate;
 public const short CUSTOMER = 22;
