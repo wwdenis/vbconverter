@@ -1,7 +1,7 @@
 # Welcome!
 
 The VB Converter analyses VB6 code and converts it to .NET 2.0 (C# or VB). 
-It uses a modified implementation VBParser (of the wondeful work of Paul Vick) and CodeDom.
+It uses a modified implementation [VBParser](https://github.com/panopticoncentral/vb8-parser) (of the wondeful work of [Paul Vick](https://github.com/panopticoncentral)) and CodeDom.
 
 Feel free to download it, contribute and comment.
 For any other issues, please contact us: vbconverter@gmail.com
