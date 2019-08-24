@@ -1,9 +1,11 @@
 using System;
+using System.Collections.Generic;
 using System.Diagnostics;
+using System.Drawing;
 using System.IO;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
-using Fireball.CodeEditor.SyntaxFiles;
 using VBConverter.CodeParser;
 using VBConverter.CodeWriter;
 
@@ -15,7 +17,6 @@ namespace VBConverter.UI
         {
             try
             {
-                CodeEditorSyntaxLoader.SetSyntax(codeEditorSource, SyntaxLanguage.VB);
                 cboLanguage.Text = "C#";
             }
             catch (Exception ex)
@@ -43,23 +44,23 @@ namespace VBConverter.UI
         {
             try
             {
-                if (string.IsNullOrEmpty(codeEditorSource.Document.Text))
+                if (string.IsNullOrEmpty(SourceEditor.Text))
                 {
-                    MessageBox.Show("There's no VB6 code to convert !", "VB Converter", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                    codeEditorSource.Focus();
+                    MessageBox.Show("There's no source code to convert !", "VB Converter", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    SourceEditor.Focus();
                 }
                 else
                 {
                     this.Cursor = Cursors.WaitCursor;
 
-                    string source = codeEditorSource.Document.Text;
+                    string source = SourceEditor.Text;
                     ConverterEngine engine = new ConverterEngine(LanguageVersion.VB6, source);
                     if (cboLanguage.Text == "VB .NET")
                         engine.ResultType = DestinationLanguage.VisualBasic;
                     bool success = engine.Convert();
                     string result = success ? engine.Result : engine.GetErrors();
-                    codeEditorDestination.Document.Text = result;
-                    codeEditorDestination.Focus();
+                    DestinationEditor.Text = result;
+                    DestinationEditor.Focus();
 
                     if (engine.Errors.Count > 0)
                         MessageBox.Show("It's not possible to convert the the source code due to compile errors!\n\nCheck the sintax.", "VB Converter", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
@@ -90,9 +91,9 @@ namespace VBConverter.UI
                 if (result == DialogResult.OK)
                 {
                     string source = File.ReadAllText(openFileSource.FileName, Encoding.Default);
-                    codeEditorSource.Document.Text = ConverterEngine.FilterSource(source);
+                    SourceEditor.Text = ConverterEngine.FilterSource(source);
                 }
-                codeEditorSource.Focus();
+                SourceEditor.Focus();
             }
             catch (Exception ex)
             {
@@ -105,7 +106,7 @@ namespace VBConverter.UI
         {
             try
             {
-                if (string.IsNullOrEmpty(codeEditorDestination.Document.Text))
+                if (string.IsNullOrEmpty(DestinationEditor.Text))
                 {
                     MessageBox.Show("There's no source code to save !", "VB Converter", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
@@ -115,12 +116,12 @@ namespace VBConverter.UI
                     DialogResult result = saveFileDestination.ShowDialog();
                     if (result == DialogResult.OK)
                     {
-                        codeEditorDestination.Save(saveFileDestination.FileName);
+                        File.WriteAllText(saveFileDestination.FileName, DestinationEditor.Text);
                         MessageBox.Show(string.Format("Conversion saved !\n\nCaminho: {0}", saveFileDestination.FileName), "VB Converter", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
-                
-                codeEditorDestination.Focus();
+
+                DestinationEditor.Focus();
             }
             catch (Exception ex)
             {
@@ -133,11 +134,16 @@ namespace VBConverter.UI
         {
             try
             {
-                SyntaxLanguage language = SyntaxLanguage.CSharp;
+                DestinationEditor.Clear();
+
                 if (cboLanguage.Text == "VB .NET")
-                    language = SyntaxLanguage.VBNET;
-                CodeEditorSyntaxLoader.SetSyntax(codeEditorDestination, language);
-                codeEditorDestination.Document.Clear();
+                {
+                    SyntaxHandler.SetVisualBasic(SourceEditor);
+                }
+                else
+                {
+                    SyntaxHandler.SetCSharp(SourceEditor);
+                }
             }
             catch (Exception ex)
             {
@@ -164,5 +170,14 @@ namespace VBConverter.UI
             }
         }
 
+        private void SourceEditor_TextChanged(object sender, EventArgs e)
+        {
+            SyntaxHandler.SetVisualBasic(SourceEditor);
+        }
+
+        private void DestinationEditor_TextChanged(object sender, EventArgs e)
+        {
+            SyntaxHandler.SetCSharp(DestinationEditor);
+        }
     }
 }

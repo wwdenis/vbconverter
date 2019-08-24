@@ -1,15 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Text;
-using System.Windows.Forms;
 using System.IO;
-
+using System.Windows.Forms;
 using VBConverter.CodeParser;
 using VBConverter.CodeWriter;
-using VBConverter.UI.Comparers;
 
 namespace VBConverter.UI
 {
@@ -51,17 +47,17 @@ namespace VBConverter.UI
             string path = txtSource.Text;
 
             lvwFiles.Items.Clear();
-            
+
             if (string.IsNullOrEmpty(path) || !Directory.Exists(path))
                 return;
 
-            Dictionary<string, string> types = new Dictionary<string, string>(new CaseInsensitiveStringComparer());
+            Dictionary<string, string> types = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
             types.Add(".bas", "Module");
             types.Add(".cls", "Class");
             types.Add(".frm", "Form");
 
             DirectoryInfo dir = new DirectoryInfo(path);
-            
+
             foreach (FileInfo file in dir.GetFiles("*.*", SearchOption.AllDirectories))
             {
                 if (types.ContainsKey(file.Extension))
@@ -91,7 +87,7 @@ namespace VBConverter.UI
                 TextBoxObject = (TextBox)sender;
                 string path = TextBoxObject.Text;
                 bool valid = ValidatePath(path, true);
-                
+
                 if (!valid)
                 {
                     e.Cancel = true;
@@ -133,7 +129,7 @@ namespace VBConverter.UI
 
                 if (Directory.Exists(TextBoxObject.Text))
                     fbdMain.SelectedPath = TextBoxObject.Text;
-                
+
                 DialogResult result = fbdMain.ShowDialog();
 
                 if (result == DialogResult.OK)
@@ -241,7 +237,7 @@ namespace VBConverter.UI
                     lblStatus.Text = "Convertendo o arquivo " + item.Text;
                     item.SubItems[2].Text = "Convertendo...";
                     item.EnsureVisible();
-                    
+
                     string reason = string.Empty;
                     bool success = ConvertFile(item.Text, out reason);
                     if (success)
@@ -258,7 +254,7 @@ namespace VBConverter.UI
                 string message = "Batch conversion sucessfully done !";
                 if (errorCount > 0)
                     message = string.Format("The batch conversion has finished, but {0} files couldn't be converted !\n\nCheck the conversion errors by pressing the button 'Show Conversion Erros'.", errorCount);
-                
+
                 MessageBox.Show(message, "VB Converter", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
@@ -281,11 +277,11 @@ namespace VBConverter.UI
 
                 string sourcePath = txtSource.Text + file;
                 string sourceText = File.ReadAllText(sourcePath);
-                
+
                 FileInfo info = new FileInfo(sourcePath);
                 string fileName = info.Name;
                 fileName = fileName.Remove(fileName.Length - info.Extension.Length, info.Extension.Length);
-                
+
                 sourceText = sourceText.Trim();
                 if (string.IsNullOrEmpty(sourceText))
                 {
