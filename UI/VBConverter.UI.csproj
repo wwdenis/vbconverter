@@ -40,30 +40,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Fireball.CodeEditor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=f84d0e3f884fb1e4, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Lib\Fireball.CodeEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="Fireball.CodeEditor.SyntaxFiles, Version=2.0.0.0, Culture=neutral, PublicKeyToken=f84d0e3f884fb1e4, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Lib\Fireball.CodeEditor.SyntaxFiles.dll</HintPath>
-    </Reference>
-    <Reference Include="Fireball.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=f84d0e3f884fb1e4, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Lib\Fireball.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Fireball.SyntaxDocument, Version=2.0.0.0, Culture=neutral, PublicKeyToken=f84d0e3f884fb1e4, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Lib\Fireball.SyntaxDocument.dll</HintPath>
-    </Reference>
-    <Reference Include="Fireball.Win32, Version=2.0.0.0, Culture=neutral, PublicKeyToken=f84d0e3f884fb1e4, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Lib\Fireball.Win32.dll</HintPath>
-    </Reference>
-    <Reference Include="Fireball.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=f84d0e3f884fb1e4, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Lib\Fireball.Windows.Forms.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -78,7 +54,7 @@
     <Compile Include="CodeTool.Designer.cs">
       <DependentUpon>CodeTool.cs</DependentUpon>
     </Compile>
-    <Compile Include="Comparers\CaseInsensitiveStringComparer.cs" />
+    <Compile Include="SyntaxHandler.cs" />
     <Compile Include="FileTool.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,7 +81,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
